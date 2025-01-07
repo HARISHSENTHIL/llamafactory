@@ -21,7 +21,7 @@ from ..common import get_model_info, list_checkpoints, save_config
 from ..utils import can_quantize, can_quantize_to
 
 only_html = '''
-   <div id="web3auth-container">
+   <div id="web3auth-container" style="text-align: right;">
        <div id="login-container">
            <button id="web3auth-login" class="web3auth-button">Connect Wallet</button>
        </div>
@@ -43,35 +43,47 @@ if TYPE_CHECKING:
 def create_top() -> Dict[str, "Component"]:
     available_models = list(SUPPORTED_MODELS.keys()) + ["Custom"]
 
-    with gr.Blocks():
-        gr.HTML(value=only_html)
+    with gr.Blocks() as ui:
+        ui.css = """
+        background-color: white;
+        .logo-image {
+            margin-left: 0;
+            background-color: Transparent !important;
+        }
+        """
 
-    with gr.Row():
-        lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
-        model_name = gr.Dropdown(choices=available_models, scale=3)
-        model_path = gr.Textbox(scale=3)
+        with gr.Row():
+            gr.Image("Layer-open.png", elem_classes="logo-image", scale=0.1, show_label=False, show_download_button=False, show_fullscreen_button=False)
+            gr.HTML(value=only_html)
+    # with gr.Blocks():
+    #     gr.HTML(value=only_html)
 
-    with gr.Row():
-        finetuning_type = gr.Dropdown(choices=METHODS, value="lora", scale=1)
-        checkpoint_path = gr.Dropdown(multiselect=True, allow_custom_value=True, scale=6)
+        with gr.Row():
+            lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
+            model_name = gr.Dropdown(choices=available_models, scale=3)
+            model_path = gr.Textbox(scale=3)
 
-    with gr.Row():
-        quantization_bit = gr.Dropdown(choices=["none", "8", "4"], value="none", allow_custom_value=True, scale=2)
-        quantization_method = gr.Dropdown(choices=["bitsandbytes", "hqq", "eetq"], value="bitsandbytes", scale=2)
-        template = gr.Dropdown(choices=list(TEMPLATES.keys()), value="default", scale=2)
-        rope_scaling = gr.Radio(choices=["none", "linear", "dynamic"], value="none", scale=3)
-        booster = gr.Radio(choices=["auto", "flashattn2", "unsloth", "liger_kernel"], value="auto", scale=5)
+        with gr.Row():
+            finetuning_type = gr.Dropdown(choices=METHODS, value="lora", scale=1)
+            checkpoint_path = gr.Dropdown(multiselect=True, allow_custom_value=True, scale=6)
 
-    model_name.change(get_model_info, [model_name], [model_path, template], queue=False).then(
-        list_checkpoints, [model_name, finetuning_type], [checkpoint_path], queue=False
-    )
-    model_name.input(save_config, inputs=[lang, model_name], queue=False)
-    model_path.input(save_config, inputs=[lang, model_name, model_path], queue=False)
-    finetuning_type.change(can_quantize, [finetuning_type], [quantization_bit], queue=False).then(
-        list_checkpoints, [model_name, finetuning_type], [checkpoint_path], queue=False
-    )
-    checkpoint_path.focus(list_checkpoints, [model_name, finetuning_type], [checkpoint_path], queue=False)
-    quantization_method.change(can_quantize_to, [quantization_method], [quantization_bit], queue=False)
+        with gr.Row():
+            quantization_bit = gr.Dropdown(choices=["none", "8", "4"], value="none", allow_custom_value=True, scale=2)
+            quantization_method = gr.Dropdown(choices=["bitsandbytes", "hqq", "eetq"], value="bitsandbytes", scale=2)
+            template = gr.Dropdown(choices=list(TEMPLATES.keys()), value="default", scale=2)
+            rope_scaling = gr.Radio(choices=["none", "linear", "dynamic"], value="none", scale=3)
+            booster = gr.Radio(choices=["auto", "flashattn2", "unsloth", "liger_kernel"], value="auto", scale=5)
+
+        model_name.change(get_model_info, [model_name], [model_path, template], queue=False).then(
+            list_checkpoints, [model_name, finetuning_type], [checkpoint_path], queue=False
+        )
+        model_name.input(save_config, inputs=[lang, model_name], queue=False)
+        model_path.input(save_config, inputs=[lang, model_name, model_path], queue=False)
+        finetuning_type.change(can_quantize, [finetuning_type], [quantization_bit], queue=False).then(
+            list_checkpoints, [model_name, finetuning_type], [checkpoint_path], queue=False
+        )
+        checkpoint_path.focus(list_checkpoints, [model_name, finetuning_type], [checkpoint_path], queue=False)
+        quantization_method.change(can_quantize_to, [quantization_method], [quantization_bit], queue=False)
 
     return dict(
         lang=lang,
