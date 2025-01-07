@@ -168,7 +168,7 @@ def create_ui(demo_mode: bool = False) -> "gr.Blocks":
 def create_web_demo() -> "gr.Blocks":
     engine = Engine(pure_chat=True)
 
-    with gr.Blocks(title="Web Demo", css=CSS) as demo:
+    with gr.Blocks(title="Web Demo", css=CSS, head=header) as demo:
         lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
         engine.manager.add_elems("top", dict(lang=lang))
 
