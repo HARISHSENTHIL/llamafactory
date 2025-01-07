@@ -144,7 +144,7 @@ if TYPE_CHECKING:
 def create_top() -> Dict[str, "Component"]:
     available_models = list(SUPPORTED_MODELS.keys()) + ["Custom"]
     
-    with gr.Blocks(head=header) as demo:
+    with gr.Blocks(head=header):
         gr.HTML(value=only_html)
         action_button = gr.Button(value="Name", elem_id="my_btn")
         textbox = gr.Textbox()
