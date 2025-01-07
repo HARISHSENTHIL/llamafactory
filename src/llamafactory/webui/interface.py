@@ -51,8 +51,7 @@ function shortcuts(e) {
     }
 }
 document.addEventListener('keypress', shortcuts, false);
-
-window.onload = function() {
+setTimeout(function() {
 function check() {
 console.log("data")
 }
@@ -74,9 +73,7 @@ console.log("wind", window.EthereumProvider)
             chainId: "0xaa36a7",
   rpcTarget: "https://rpc.ankr.com/eth_sepolia",
   chainNamespace: "eip155",
-  // Avoid using public rpcTarget in production.
-  // Use services like Infura, Quicknode etc
-  
+
         } },
     });
     const web3auth = new window.Modal.Web3Auth({
@@ -89,13 +86,6 @@ console.log("wind", window.EthereumProvider)
             rpcTarget: "https://rpc.ankr.com/eth_sepolia"
         }
     });
-    
-    
-    setTimeout(function(){
-        console.log('id inside settimeout :', document.getElementById('login'))
-        document.getElementById('login').onclick = login;
-        document.getElementById('logout').onclick = logout;
-    }, 3000)
     console.log(document.getElementById('login'))
    async function login() {
     try {
@@ -105,7 +95,6 @@ console.log("wind", window.EthereumProvider)
         console.log("ethereumProvider", ethereumProvider)
         // await ethereumProvider.init();
         const address = await ethereumProvider.request({ method: "eth_accounts" });
-        
         document.getElementById('address').textContent = 'Connected: ' + address[0];
         document.getElementById('userData').style.display = 'block';
         document.getElementById('login').style.display = 'none';
@@ -117,17 +106,23 @@ console.log("wind", window.EthereumProvider)
         console.error(error);
     }
 }
-    
     async function logout() {
         await web3auth.logout();
         document.getElementById('userData').style.display = 'none';
         document.getElementById('login').style.display = 'block';
     }
+    setTimeout(function(){
+        console.log('id inside settimeout :', document.getElementById('login'))
+        document.getElementById('web3auth-login').onclick = login;
+        document.getElementById('web3auth-logout').onclick = logout;
+    }, 3000)
     console.log('id is :', document.getElementById('login'))
-    }
+    }, 2000);
+
 </script>
-    
+
 '''
+
 
 def create_ui(demo_mode: bool = False) -> "gr.Blocks":
     engine = Engine(demo_mode=demo_mode, pure_chat=False)
@@ -168,7 +163,7 @@ def create_ui(demo_mode: bool = False) -> "gr.Blocks":
 def create_web_demo() -> "gr.Blocks":
     engine = Engine(pure_chat=True)
 
-    with gr.Blocks(title="Web Demo", css=CSS, head=header) as demo:
+    with gr.Blocks(title="Web Demo", css=CSS) as demo:
         lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
         engine.manager.add_elems("top", dict(lang=lang))
 

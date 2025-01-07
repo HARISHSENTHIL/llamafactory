@@ -20,118 +20,17 @@ from ...extras.packages import is_gradio_available
 from ..common import get_model_info, list_checkpoints, save_config
 from ..utils import can_quantize, can_quantize_to
 
-
 only_html = '''
-<h1>Gradio with Web3Auth</h1>
-    
-
-    <div id="app">
-        <button id="login" onclick="login">Login</button>
-        <div id="userData" style="display:none;">
-            <p id="address"></p>
-            <button id="logout">Logout</button>
-        </div>
-    </div>
-'''
-
-header='''
-    <title>Gradio with Web3Auth</title>
-    <script src="https://cdn.jsdelivr.net/npm/@web3auth/modal@9.5.1/dist/modal.umd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@web3auth/ethereum-provider@9.5.1/dist/ethereumProvider.umd.min.js"></script>
-    <script type="text/javascript">
-function shortcuts(e) {
-    console.log('key pressed')
-    var event = document.all ? window.event : e;
-    switch (e.target.tagName.toLowerCase()) {
-        case "input":
-        case "textarea":
-        break;
-        default:
-        if (e.key.toLowerCase() == "s" && e.shiftKey) {
-            document.getElementById("my_btn").click();
-        }
-    }
-}
-document.addEventListener('keypress', shortcuts, false);
-
-window.onload = function() {
-function check() {
-console.log("data")
-}
-const chainConfig = {
-  chainNamespace: 'eip155',
-  chainId: "0xaa36a7",
-  rpcTarget: "https://rpc.ankr.com/eth_sepolia",
-  displayName: "Ethereum Sepolia Testnet",
-  blockExplorerUrl: "https://sepolia.etherscan.io",
-  ticker: "ETH",
-  tickerName: "Ethereum",
-  decimals: 18,
-  logo: "https://cryptologos.cc/logos/ethereum-eth-logo.png",
-};
-
-console.log("wind", window.EthereumProvider)
-    const ethereumProvider = new window.EthereumProvider.EthereumPrivateKeyProvider({
-        config: { chainConfig: {
-            chainId: "0xaa36a7",
-  rpcTarget: "https://rpc.ankr.com/eth_sepolia",
-  chainNamespace: "eip155",
-  // Avoid using public rpcTarget in production.
-  // Use services like Infura, Quicknode etc
-  
-        } },
-    });
-    const web3auth = new window.Modal.Web3Auth({
-        privateKeyProvider: ethereumProvider,
-        web3AuthNetwork: "sapphire_devnet",
-        clientId: "BD_mes2shHCQIycGpb1E6o8OWYzLOnjFBHgv9nYd3xHl5xE3XjG8qjaT5g1_jEVPWJ8ZTexeZiuXFwYb-9avE1Y", // Get from Web3Auth Dashboard
-        chainConfig: {
-            chainNamespace: "eip155",
-            chainId: "0xaa36a7",
-            rpcTarget: "https://rpc.ankr.com/eth_sepolia"
-        }
-    });
-    
-    
-    setTimeout(function(){
-        console.log('id inside settimeout :', document.getElementById('login'))
-        document.getElementById('login').onclick = login;
-        document.getElementById('logout').onclick = logout;
-    }, 3000)
-    console.log(document.getElementById('login'))
-   async function login() {
-    try {
-        console.log("inside login")
-        await web3auth.initModal();
-        const provider = await web3auth.connect();
-        console.log("ethereumProvider", ethereumProvider)
-        // await ethereumProvider.init();
-        const address = await ethereumProvider.request({ method: "eth_accounts" });
-        
-        document.getElementById('address').textContent = 'Connected: ' + address[0];
-        document.getElementById('userData').style.display = 'block';
-        document.getElementById('login').style.display = 'none';
-        console.log(window.parent.location)
-        window.top.postMessage({ action: 'sendData', data: 'Hello from iframe!' }, '*');
-        console.log("address", address);
-        return address;
-    } catch (error) {
-        console.error(error);
-    }
-}
-    
-    async function logout() {
-        await web3auth.logout();
-        document.getElementById('userData').style.display = 'none';
-        document.getElementById('login').style.display = 'block';
-    }
-    console.log('id is :', document.getElementById('login'))
-    }
-</script>
-    
-'''
-
-
+   <div id="web3auth-container">
+       <div id="login-container">
+           <button id="web3auth-login" class="web3auth-button">Connect Wallet</button>
+       </div>
+       <div id="user-info" style="display:none;">
+           <p id="wallet-address"></p>
+           <button id="web3auth-logout" class="web3auth-button">Disconnect</button>
+       </div>
+   </div>
+   '''
 
 if is_gradio_available():
     import gradio as gr
@@ -143,13 +42,9 @@ if TYPE_CHECKING:
 
 def create_top() -> Dict[str, "Component"]:
     available_models = list(SUPPORTED_MODELS.keys()) + ["Custom"]
-    
-    with gr.Blocks(head=header):
-        gr.HTML(value=only_html)
-        action_button = gr.Button(value="Name", elem_id="my_btn")
-        textbox = gr.Textbox()
-        action_button.click(lambda : "button pressed", None, textbox)
 
+    with gr.Blocks():
+        gr.HTML(value=only_html)
 
     with gr.Row():
         lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
