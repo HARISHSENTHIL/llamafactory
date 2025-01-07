@@ -90,14 +90,15 @@ console.log("wind", window.EthereumProvider)
    async function login() {
     try {
         console.log("inside login")
-        await web3auth.initModal();
+        console.log(web3auth.provider)
+        !web3auth.provider ? await web3auth.initModal() : console.log("Already provider initiated");
         const provider = await web3auth.connect();
         console.log("ethereumProvider", ethereumProvider)
         // await ethereumProvider.init();
         const address = await ethereumProvider.request({ method: "eth_accounts" });
-        document.getElementById('address').textContent = 'Connected: ' + address[0];
-        document.getElementById('userData').style.display = 'block';
-        document.getElementById('login').style.display = 'none';
+        document.getElementById('wallet-address').textContent = 'Connected: ' + address[0];
+        document.getElementById('user-info').style.display = 'block';
+        document.getElementById('web3auth-login').style.display = 'none';
         console.log(window.parent.location)
         window.top.postMessage({ action: 'sendData', data: 'Hello from iframe!' }, '*');
         console.log("address", address);
@@ -108,8 +109,8 @@ console.log("wind", window.EthereumProvider)
 }
     async function logout() {
         await web3auth.logout();
-        document.getElementById('userData').style.display = 'none';
-        document.getElementById('login').style.display = 'block';
+        document.getElementById('user-info').style.display = 'none';
+        document.getElementById('web3auth-login').style.display = 'block';
     }
     setTimeout(function(){
         console.log('id inside settimeout :', document.getElementById('login'))
