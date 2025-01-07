@@ -276,7 +276,7 @@ def create_train_tab(engine: "Engine") -> Dict[str, "Component"]:
         arg_save_btn = gr.Button()
         arg_load_btn = gr.Button()
         start_btn = gr.Button(variant="primary")
-        stop_btn = gr.Button(variant="stop")
+        stop_btn = gr.Button(variant="stop", elem_id="stop-button")
 
     with gr.Row():
         with gr.Column(scale=3):
@@ -331,9 +331,14 @@ def create_train_tab(engine: "Engine") -> Dict[str, "Component"]:
             time.sleep(0.1)
         return
 
+    def call_js():
+        print("Calling JS")
+        return gr.update(js="makeTransaction()")
+
     cmd_preview_btn.click(engine.runner.preview_train, input_elems, output_elems, concurrency_limit=None)
     start_btn.click(engine.runner.run_train, input_elems, output_elems)
-    stop_btn.click(engine.runner.set_abort)
+    # stop_btn.click(engine.runner.set_abort)
+    stop_btn.click(call_js)
     resume_btn.change(engine.runner.monitor, outputs=output_elems, concurrency_limit=None)
 
     lang = engine.manager.get_elem_by_id("top.lang")

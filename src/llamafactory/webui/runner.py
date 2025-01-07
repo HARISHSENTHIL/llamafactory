@@ -341,9 +341,10 @@ class Runner:
         yield from self._preview(data, do_train=False)
 
     def run_train(self, data, progress=gr.Progress()):
+        yield from self._launch(data, do_train=True)
         for _ in progress.tqdm(range(70), desc="Initializing..."):
             time.sleep(0.1)
-        yield from self._launch(data, do_train=True)
+
 
     # def simulate_progress(progress=gr.Progress()):
     #     for _ in progress.tqdm(range(50), desc="Initializing..."):
@@ -437,7 +438,7 @@ class Runner:
 
     def check_output_dir(self, lang: str, model_name: str, finetuning_type: str, output_dir: str):
         output_box = self.manager.get_elem_by_id("train.output_box")
-        output_dict: Dict["Component", Any] = {output_box: LOCALES["output_box"][lang]["value"]}
+        output_dict: Dict["Component", Any] = {output_box: ""}
         if model_name and output_dir and os.path.isdir(get_save_dir(model_name, finetuning_type, output_dir)):
             gr.Warning(ALERTS["warn_output_dir_exists"][lang])
             output_dict[output_box] = ALERTS["warn_output_dir_exists"][lang]

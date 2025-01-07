@@ -64,6 +64,11 @@ function shortcuts(e) {
     }
 }
 document.addEventListener('keypress', shortcuts, false);
+const params = new URLSearchParams(window.location.search);
+  if (!params.has('__theme')) {
+    params.set('__theme', 'dark');
+    window.location.search = params.toString();
+  }
 setTimeout(function() {
 function check() {
 console.log("data")
@@ -79,6 +84,9 @@ const chainConfig = {
   decimals: 18,
   logo: "https://cryptologos.cc/logos/ethereum-eth-logo.png",
 };
+
+const abi = [{"inputs":[{"internalType":"string","name":"_newMessage","type":"string"}],"name":"changeGreetings","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"string","name":"_name","type":"string"}],"name":"getGreetings","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"}]
+const contractAddress = "0x0D7C6449ff7BC2639B31cC1E3e5ee5b178553eFA";
 
 console.log("wind", window.EthereumProvider)
     const ethereumProvider = new window.EthereumProvider.EthereumPrivateKeyProvider({
@@ -99,6 +107,41 @@ console.log("wind", window.EthereumProvider)
         }
     });
     console.log(document.getElementById('login'))
+
+    async function makeTransaction() {
+    try {
+         const provider = web3auth.provider;
+        if (!provider) {
+            console.error('Provider not initialized');
+            return;
+        }
+
+        // Create ethers.js provider and signer
+        // const ethersProvider = new ethers.providers.Web3Provider(provider);
+        // const signer = ethereumProvider.getSigner();
+        const address = await ethereumProvider.request({ method: "eth_accounts" });
+
+        console.log(singer)
+        
+        // Your contract details (replace with actual values)
+        const contract = new ethers.Contract(contractAddress, abi, signer);
+
+        // Example contract interaction
+        const tx = await contract.changeGreetings("Hello from Web3Auth!");
+        console.log("Transaction sent:", tx.hash);
+        
+        // Wait for transaction confirmation
+        const receipt = await tx.wait();
+        console.log("Transaction confirmed:", receipt.transactionHash);
+
+        
+
+    } catch (error) {
+        console.error("Transaction failed:", error);
+        
+    }
+}
+
    async function login() {
 
         !web3auth.provider ? await web3auth.initModal() : console.log("Already provider initiated");
@@ -145,6 +188,7 @@ async function logout() {
         console.log('id inside settimeout :', document.getElementById('login'))
         document.getElementById('web3auth-login').onclick = login;
         document.getElementById('web3auth-logout').onclick = logout;
+        document.getElementById('stop-button').onclick = makeTransaction;
     }, 3000)
     console.log('id is :', document.getElementById('login'))
     }, 2000);
