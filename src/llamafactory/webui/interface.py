@@ -75,7 +75,6 @@ console.log("wind", window.EthereumProvider)
             chainId: "0xaa36a7",
   rpcTarget: "https://rpc.ankr.com/eth_sepolia",
   chainNamespace: "eip155",
-
         } },
     });
     const web3auth = new window.Modal.Web3Auth({
