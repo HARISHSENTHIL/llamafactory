@@ -162,7 +162,7 @@ def create_train_tab(engine: "Engine") -> Dict[str, "Component"]:
         )
     )
 
-    with gr.Accordion(open=False,visible=False) as lora_tab:
+    with gr.Accordion(open=False) as lora_tab:
         with gr.Row():
             lora_rank = gr.Slider(minimum=1, maximum=1024, value=8, step=1)
             lora_alpha = gr.Slider(minimum=1, maximum=2048, value=16, step=1)
