@@ -1,5 +1,5 @@
 {
-  "move_qa": {
+  "move-language": {
     "file_name": "qa_move_databank.jsonl",
     "columns": {
       "prompt": "instruction",

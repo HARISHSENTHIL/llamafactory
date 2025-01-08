@@ -36,6 +36,7 @@ only_html = '''
                    <button class="dropbtn" id="user-name"></button>
                    <div class="dropdown-content">
                        <a href="#" style="color: white;" id="profile-link">Profile</a>
+                       <a href="#" style="color: white;" id="wallet-address"></a>
                        <a href="#" style="color: white;" id="web3auth-logout">Logout</a>
                    </div>
                </div>

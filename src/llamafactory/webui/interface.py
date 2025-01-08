@@ -104,6 +104,7 @@ console.log("wind", window.EthereumProvider)
             document.getElementById('user-image').src = userInfo.profileImage;
         }
         document.getElementById('user-name').textContent = userInfo.name || address[0].slice(0, 6) + '...';
+        document.getElementById('wallet-address').textContent = address[0]
         document.getElementById('user-info').style.display = 'flex';
         document.getElementById('web3auth-login').style.display = 'none';
         
