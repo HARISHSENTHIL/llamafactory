@@ -85,7 +85,7 @@ def create_train_tab(engine: "Engine") -> Dict[str, "Component"]:
         )
     )
 
-    with gr.Accordion(open=False) as extra_tab:
+    with gr.Accordion(open=False,visible=False) as extra_tab:
         with gr.Row():
             logging_steps = gr.Slider(minimum=1, maximum=1000, value=5, step=5)
             save_steps = gr.Slider(minimum=10, maximum=5000, value=100, step=10)
@@ -146,7 +146,7 @@ def create_train_tab(engine: "Engine") -> Dict[str, "Component"]:
         )
     )
 
-    with gr.Accordion(open=False) as freeze_tab:
+    with gr.Accordion(open=False,visible=False) as freeze_tab:
         with gr.Row():
             freeze_trainable_layers = gr.Slider(minimum=-128, maximum=128, value=2, step=1)
             freeze_trainable_modules = gr.Textbox(value="all")
@@ -162,7 +162,7 @@ def create_train_tab(engine: "Engine") -> Dict[str, "Component"]:
         )
     )
 
-    with gr.Accordion(open=False) as lora_tab:
+    with gr.Accordion(open=False,visible=False) as lora_tab:
         with gr.Row():
             lora_rank = gr.Slider(minimum=1, maximum=1024, value=8, step=1)
             lora_alpha = gr.Slider(minimum=1, maximum=2048, value=16, step=1)
@@ -207,7 +207,7 @@ def create_train_tab(engine: "Engine") -> Dict[str, "Component"]:
         )
     )
 
-    with gr.Accordion(open=False) as rlhf_tab:
+    with gr.Accordion(open=False,visible=False) as rlhf_tab:
         with gr.Row():
             pref_beta = gr.Slider(minimum=0, maximum=1, value=0.1, step=0.01)
             pref_ftx = gr.Slider(minimum=0, maximum=10, value=0, step=0.01)
@@ -230,7 +230,7 @@ def create_train_tab(engine: "Engine") -> Dict[str, "Component"]:
         )
     )
 
-    with gr.Accordion(open=False) as galore_tab:
+    with gr.Accordion(open=False,visible=False) as galore_tab:
         with gr.Row():
             use_galore = gr.Checkbox()
             galore_rank = gr.Slider(minimum=1, maximum=1024, value=16, step=1)
@@ -250,7 +250,7 @@ def create_train_tab(engine: "Engine") -> Dict[str, "Component"]:
         )
     )
 
-    with gr.Accordion(open=False) as badam_tab:
+    with gr.Accordion(open=False,visible=False) as badam_tab:
         with gr.Row():
             use_badam = gr.Checkbox()
             badam_mode = gr.Dropdown(choices=["layer", "ratio"], value="layer")

@@ -48,18 +48,18 @@ def create_top() -> Dict[str, "Component"]:
         background-color: white;
         .logo-image {
             margin-left: 0;
-            background-color: Transparent !important;
+            background: transparent;
+            border-color: transparent;
         }
         """
 
         with gr.Row():
             gr.Image("Layer-open.png", elem_classes="logo-image", scale=0.1, show_label=False, show_download_button=False, show_fullscreen_button=False)
             gr.HTML(value=only_html)
-    # with gr.Blocks():
-    #     gr.HTML(value=only_html)
 
         with gr.Row():
-            lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
+            # lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
+            lang = gr.Dropdown(choices=["en"], scale=1)
             model_name = gr.Dropdown(choices=available_models, scale=3)
             model_path = gr.Textbox(scale=3)
 
@@ -72,7 +72,8 @@ def create_top() -> Dict[str, "Component"]:
             quantization_method = gr.Dropdown(choices=["bitsandbytes", "hqq", "eetq"], value="bitsandbytes", scale=2)
             template = gr.Dropdown(choices=list(TEMPLATES.keys()), value="default", scale=2)
             rope_scaling = gr.Radio(choices=["none", "linear", "dynamic"], value="none", scale=3)
-            booster = gr.Radio(choices=["auto", "flashattn2", "unsloth", "liger_kernel"], value="auto", scale=5)
+            # booster = gr.Radio(choices=["auto", "flashattn2", "unsloth", "liger_kernel"], value="auto", scale=5)
+            booster = gr.Radio(choices=["auto"], value="auto", scale=5)
 
         model_name.change(get_model_info, [model_name], [model_path, template], queue=False).then(
             list_checkpoints, [model_name, finetuning_type], [checkpoint_path], queue=False
