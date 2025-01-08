@@ -36,8 +36,9 @@ header='''
     <script src="https://cdn.jsdelivr.net/npm/@web3auth/modal@9.5.1/dist/modal.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@web3auth/ethereum-provider@9.5.1/dist/ethereumProvider.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript">
-    
+
 function shortcuts(e) {
     console.log('key pressed')
     var event = document.all ? window.event : e;
@@ -74,7 +75,6 @@ console.log("wind", window.EthereumProvider)
             chainId: "0xaa36a7",
   rpcTarget: "https://rpc.ankr.com/eth_sepolia",
   chainNamespace: "eip155",
-
         } },
     });
     const web3auth = new window.Modal.Web3Auth({
@@ -90,29 +90,37 @@ console.log("wind", window.EthereumProvider)
     console.log(document.getElementById('login'))
    async function login() {
     try {
-        console.log("inside login")
-        console.log(web3auth.provider)
         !web3auth.provider ? await web3auth.initModal() : console.log("Already provider initiated");
         const provider = await web3auth.connect();
-        console.log("ethereumProvider", ethereumProvider)
-        // await ethereumProvider.init();
+        
+        // Get user info from Web3Auth
+        const userInfo = await web3auth.getUserInfo();
+        console.log("User info:", userInfo);
+        
         const address = await ethereumProvider.request({ method: "eth_accounts" });
-        document.getElementById('wallet-address').textContent = 'Connected: ' + address[0];
-        document.getElementById('user-info').style.display = 'block';
+        
+        // Update UI with user info
+        if (userInfo.profileImage) {
+            document.getElementById('user-image').src = userInfo.profileImage;
+        }
+        document.getElementById('user-name').textContent = userInfo.name || address[0].slice(0, 6) + '...';
+        document.getElementById('user-info').style.display = 'flex';
         document.getElementById('web3auth-login').style.display = 'none';
-        console.log(window.parent.location)
+        
         window.top.postMessage({ action: 'sendData', data: 'Hello from iframe!' }, '*');
-        console.log("address", address);
         return address;
     } catch (error) {
         console.error(error);
     }
 }
-    async function logout() {
-        await web3auth.logout();
-        document.getElementById('user-info').style.display = 'none';
-        document.getElementById('web3auth-login').style.display = 'block';
-    }
+
+async function logout() {
+    await web3auth.logout();
+    document.getElementById('user-info').style.display = 'none';
+    document.getElementById('web3auth-login').style.display = 'block';
+    document.getElementById('user-image').src = '';
+    document.getElementById('user-name').textContent = '';
+}
     setTimeout(function(){
         console.log('id inside settimeout :', document.getElementById('login'))
         document.getElementById('web3auth-login').onclick = login;

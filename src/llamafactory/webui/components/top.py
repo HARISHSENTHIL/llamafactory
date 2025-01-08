@@ -23,12 +23,26 @@ from ..utils import can_quantize, can_quantize_to
 only_html = '''
    <div id="web3auth-container" style="text-align: right;">
        <div id="login-container">
-           <button id="web3auth-login" class="web3auth-button">Connect Wallet</button>
+            <img class="logo-image" src="https://i.ibb.co/drdFdGT/opl-logo.png" alt="openledger-logo">
+            <div>
+            <i class="fa fa-industry" style="font-size:28px;"></i>
+            <span class="logo-text">Model Factory</span>
+            </div>
+           <button id="web3auth-login" class="lg primary">Connect Wallet</button>
+           <div id="user-info" style="display:none;">
+           <div class="user-profile">
+               <img id="user-image" class="profile-image" src="" alt="Profile">
+               <div class="dropdown">
+                   <button class="dropbtn" id="user-name"></button>
+                   <div class="dropdown-content">
+                       <a href="#" style="color: white;" id="profile-link">Profile</a>
+                       <a href="#" style="color: white;" id="web3auth-logout">Logout</a>
+                   </div>
+               </div>
+           </div>
        </div>
-       <div id="user-info" style="display:none;">
-           <p id="wallet-address"></p>
-           <button id="web3auth-logout" class="web3auth-button">Disconnect</button>
        </div>
+       
    </div>
    '''
 
@@ -45,21 +59,20 @@ def create_top() -> Dict[str, "Component"]:
 
     with gr.Blocks() as ui:
         ui.css = """
-        background-color: white;
         .logo-image {
             margin-left: 0;
-            background: transparent;
-            border-color: transparent;
+            background-color: Transparent !important;
         }
         """
 
         with gr.Row():
-            gr.Image("Layer-open.png", elem_classes="logo-image", scale=0.1, show_label=False, show_download_button=False, show_fullscreen_button=False)
+            # gr.Image("Layer-open.png", elem_classes="logo-image", scale=0.1, show_label=False, show_download_button=False, show_fullscreen_button=False)
             gr.HTML(value=only_html)
+    # with gr.Blocks():
+    #     gr.HTML(value=only_html)
 
         with gr.Row():
-            # lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
-            lang = gr.Dropdown(choices=["en"], scale=1)
+            lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
             model_name = gr.Dropdown(choices=available_models, scale=3)
             model_path = gr.Textbox(scale=3)
 
@@ -72,8 +85,7 @@ def create_top() -> Dict[str, "Component"]:
             quantization_method = gr.Dropdown(choices=["bitsandbytes", "hqq", "eetq"], value="bitsandbytes", scale=2)
             template = gr.Dropdown(choices=list(TEMPLATES.keys()), value="default", scale=2)
             rope_scaling = gr.Radio(choices=["none", "linear", "dynamic"], value="none", scale=3)
-            # booster = gr.Radio(choices=["auto", "flashattn2", "unsloth", "liger_kernel"], value="auto", scale=5)
-            booster = gr.Radio(choices=["auto"], value="auto", scale=5)
+            booster = gr.Radio(choices=["auto", "flashattn2", "unsloth", "liger_kernel"], value="auto", scale=5)
 
         model_name.change(get_model_info, [model_name], [model_path, template], queue=False).then(
             list_checkpoints, [model_name, finetuning_type], [checkpoint_path], queue=False
