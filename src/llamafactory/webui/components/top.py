@@ -13,12 +13,13 @@
 # limitations under the License.
 
 from typing import TYPE_CHECKING, Dict
+import time
 
 from ...data import TEMPLATES
 from ...extras.constants import METHODS, SUPPORTED_MODELS
 from ...extras.packages import is_gradio_available
 from ..common import get_model_info, list_checkpoints, save_config
-from ..utils import can_quantize, can_quantize_to
+from ..utils import can_quantize, can_quantize_to, delayed_function
 
 only_html = '''
    <div id="web3auth-container" style="text-align: right;">
@@ -54,9 +55,14 @@ if is_gradio_available():
 if TYPE_CHECKING:
     from gradio.components import Component
 
+def update_multiple_dropdowns(wallet_address: str | None, count: int = 9):
+    is_enabled =  wallet_address is not None and wallet_address != ""
+    return [gr.update(interactive=is_enabled)] * count
 
 def create_top() -> Dict[str, "Component"]:
     available_models = list(SUPPORTED_MODELS.keys()) + ["Custom"]
+
+    wallet_address = gr.Textbox(value=None, elem_id="wallet-address-textbox", visible=False)
 
     with gr.Blocks() as ui:
         ui.css = """
@@ -67,26 +73,39 @@ def create_top() -> Dict[str, "Component"]:
         """
 
         with gr.Row():
-            # gr.Image("Layer-open.png", elem_classes="logo-image", scale=0.1, show_label=False, show_download_button=False, show_fullscreen_button=False)
-            gr.HTML(value=only_html)
-    # with gr.Blocks():
-    #     gr.HTML(value=only_html)
+           html = gr.HTML(value=only_html)
 
         with gr.Row():
             lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
-            model_name = gr.Dropdown(choices=available_models, scale=3)
-            model_path = gr.Textbox(scale=3)
+            model_name = gr.Dropdown(choices=available_models, scale=3, interactive=False)
+            model_path = gr.Textbox(scale=3, interactive=False)
 
         with gr.Row():
-            finetuning_type = gr.Dropdown(choices=METHODS, value="lora", scale=1)
-            checkpoint_path = gr.Dropdown(multiselect=True, allow_custom_value=True, scale=6)
+            finetuning_type = gr.Dropdown(choices=METHODS, value="lora", scale=1, interactive=False)
+            checkpoint_path = gr.Dropdown(multiselect=True, allow_custom_value=True, scale=6, interactive=False)
 
         with gr.Row():
-            quantization_bit = gr.Dropdown(choices=["none", "8", "4"], value="none", allow_custom_value=True, scale=2)
-            quantization_method = gr.Dropdown(choices=["bitsandbytes", "hqq", "eetq"], value="bitsandbytes", scale=2)
-            template = gr.Dropdown(choices=list(TEMPLATES.keys()), value="default", scale=2)
-            rope_scaling = gr.Radio(choices=["none", "linear", "dynamic"], value="none", scale=3)
-            booster = gr.Radio(choices=["auto", "flashattn2", "unsloth", "liger_kernel"], value="auto", scale=5)
+            quantization_bit = gr.Dropdown(choices=["none", "8", "4"], value="none", allow_custom_value=True, scale=2, interactive=False)
+            quantization_method = gr.Dropdown(choices=["bitsandbytes", "hqq", "eetq"], value="bitsandbytes", scale=2, interactive=False)
+            template = gr.Dropdown(choices=list(TEMPLATES.keys()), value="default", scale=2, interactive=False)
+            rope_scaling = gr.Radio(choices=["none", "linear", "dynamic"], value="none", scale=3, interactive=False)
+            booster = gr.Radio(choices=["auto", "flashattn2", "unsloth", "liger_kernel"], value="auto", scale=5, interactive=False)
+
+        wallet_address.change(
+            fn=update_multiple_dropdowns,
+            inputs=[wallet_address],
+            outputs=[model_name, model_path, quantization_bit, quantization_method, template, rope_scaling, booster, finetuning_type, checkpoint_path],
+        )
+
+        with gr.Row():
+           btn = gr.Button("trigger", elem_id="tg-button", visible=True)
+
+        def simulate_progress(progress=gr.Progress()):
+            for _ in progress.tqdm(range(50), desc="Initializing..."):
+                time.sleep(0.1)
+            return html
+
+        btn.click(simulate_progress, [], [html])
 
         model_name.change(get_model_info, [model_name], [model_path, template], queue=False).then(
             list_checkpoints, [model_name, finetuning_type], [checkpoint_path], queue=False

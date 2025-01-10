@@ -14,6 +14,7 @@
 
 import os
 import platform
+import time
 
 from ..extras.packages import is_gradio_available
 from .common import save_config
@@ -38,6 +39,14 @@ header='''
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript">
+
+    setTimeout(function() {
+    let btn = document.getElementById('tg-button');
+    if(btn) {
+        btn.click();
+    }
+    }, 2000)
+    
 
 function shortcuts(e) {
     console.log('key pressed')
@@ -89,7 +98,7 @@ console.log("wind", window.EthereumProvider)
     });
     console.log(document.getElementById('login'))
    async function login() {
-    try {
+
         !web3auth.provider ? await web3auth.initModal() : console.log("Already provider initiated");
         const provider = await web3auth.connect();
         
@@ -103,6 +112,12 @@ console.log("wind", window.EthereumProvider)
         if (userInfo.profileImage) {
             document.getElementById('user-image').src = userInfo.profileImage;
         }
+        if(document.querySelector('#wallet-address')) {
+        let box = document.querySelector('#wallet-address-textbox label textarea');
+            box.value = address[0];
+            box.dispatchEvent(new Event('input'));
+        }
+        
         document.getElementById('user-name').textContent = userInfo.name || address[0].slice(0, 6) + '...';
         document.getElementById('wallet-address').textContent = address[0]
         document.getElementById('user-info').style.display = 'flex';
@@ -110,9 +125,6 @@ console.log("wind", window.EthereumProvider)
         
         window.top.postMessage({ action: 'sendData', data: 'Hello from iframe!' }, '*');
         return address;
-    } catch (error) {
-        console.error(error);
-    }
 }
 
 async function logout() {
@@ -121,6 +133,11 @@ async function logout() {
     document.getElementById('web3auth-login').style.display = 'block';
     document.getElementById('user-image').src = '';
     document.getElementById('user-name').textContent = '';
+    if(document.querySelector('#wallet-address')) {
+        let box = document.querySelector('#wallet-address-textbox label textarea');
+            box.value = '';
+            box.dispatchEvent(new Event('input'));
+        }
 }
     setTimeout(function(){
         console.log('id inside settimeout :', document.getElementById('login'))
