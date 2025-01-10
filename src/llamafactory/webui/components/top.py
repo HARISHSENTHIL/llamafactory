@@ -19,7 +19,7 @@ from ...data import TEMPLATES
 from ...extras.constants import METHODS, SUPPORTED_MODELS
 from ...extras.packages import is_gradio_available
 from ..common import get_model_info, list_checkpoints, save_config
-from ..utils import can_quantize, can_quantize_to, delayed_function
+from ..utils import can_quantize, can_quantize_to
 
 only_html = '''
    <div id="web3auth-container" style="text-align: right;">
@@ -98,7 +98,7 @@ def create_top() -> Dict[str, "Component"]:
         )
 
         with gr.Row():
-           btn = gr.Button("trigger", elem_id="tg-button", visible=True)
+           btn = gr.Button("trigger", elem_id="tg-button", visible=False)
 
         def simulate_progress(progress=gr.Progress()):
             for _ in progress.tqdm(range(50), desc="Initializing..."):
