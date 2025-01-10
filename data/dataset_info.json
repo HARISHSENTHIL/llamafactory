@@ -1,10 +1,205 @@
 {
   "move-language": {
-    "file_name": "qa_move_databank.jsonl",
+    "file_name": "new-datasets/qa_move_databank.jsonl",
+    "formatting": "alpaca",
     "columns": {
       "prompt": "instruction",
       "query": "input",
       "response": "output"
     }
+  },
+  "Medical-Insights":{
+    "file_name": "new-datasets/Medical-Insights.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "Indian-Finance": {
+      "file_name": "new-datasets/Indian_finance.json",
+      "formatting": "sharegpt",
+      "columns": {
+        "messages": "conversations"
+      },
+      "tags": {
+        "role_tag": "role",
+        "content_tag": "content",
+        "user_tag": "user",
+        "assistant_tag": "assistant"
+      }
+    },
+      "Learning-Insights": {
+        "file_name": "new-datasets/Learning-Insights.json",
+        "formatting": "alpaca",
+        "columns": {
+          "prompt": "prompt",
+          "response": "text"
+        }
+      },
+      "Energy": {
+        "file_name": "new-datasets/energy.json",
+        "formatting": "alpaca",
+        "columns": {
+          "text" : "text" 
+        }
+      },
+      "Health_analysis": {
+    "file_name": "new-datasets/Health_analusis.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "Q",
+      "response": "A"
+    }
+  },
+  "RealEstate": {
+    "file_name": "new-datasets/RealEstate.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "Agriculture": {
+    "file_name": "new-datasets/Agriculture.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "question",
+      "response": "answer"
+    }
+  },
+  "Entertainment_classification": {
+    "file_name": "new-datasets/sports_dataset.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "document",
+      "query": "input",
+      "response": "assistant"
+    }
+  },
+  "Food_Recipes": {
+    "file_name": "new-datasets/recipe_dataset.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  }, 
+"Pharma-FAQ": {
+    "file_name": "new-datasets/Pharma-FAQ.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "Question",
+      "response": "Answer"
+    }
+  },
+  "sports_stas": {
+    "file_name": "new-datasets/Sports-stats.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "document",
+      "query": "question",
+      "response": "answer"
+    }
+  },
+  "Insurance": {
+    "file_name": "new-datasets/Insurance.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "prompt",
+      "response": "response"
+    }
+  },
+  "travel_conversations": {
+    "file_name": "new-datasets/Travel-querries.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "title",  
+      "query": "selftext",  
+      "response": "comments", 
+      "summary": "falcon_summary"  
+    }
+  },
+  "Fitness-Qa": {
+    "file_name": "new-datasets/Fitness_pre.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",  
+      "query": "input",      
+      "response": "output"   
+    }
+  },
+  "cybersecurity" : {
+    "file_name": "new-datasets/cybersecurity.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "Text"
+    }
+  },
+  "Fintech_qa" : {
+    "file_name": "new-datasets/fintech_qa.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",  
+      "response": "output",     
+      "system": "system" 
+    }
+  },
+  "Biology-Book" : {
+    "file_name": "new-datasets/bio-book.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "prompt",  
+      "response": "response"
+    }
+  },
+"Disease-scraped": {
+    "file_name": "new-datasets/disease-scraped.json",
+    "formatting": "alpaca",
+    "columns": {
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output"
+    }
+},
+"Math-problem": {
+    "file_name": "new-datasets/Maths.json",
+    "formatting": "alpaca",
+    "columns": {
+        "prompt": "prompt",
+        "query": "input",
+        "response": "output"
+    }
+},
+"supply-chain": {
+    "file_name": "new-datasets/supply-chain.json",
+    "formatting": "alpaca",
+    "columns": {
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output"
+    }
+},
+"Football-Info": {
+  "file_name": "new-datasets/Football-info.json",
+  "formatting": "alpaca",
+  "columns": {
+    "prompt": "input",
+    "response": "output"
   }
+},
+"Banking-info": {
+  "file_name": "new-datasets/Banking-info.json",
+  "formatting": "alpaca",
+  "columns": {
+    "prompt": "input",
+    "response": "output"
+  }
+}
 }

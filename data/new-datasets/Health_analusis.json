@@ -1,0 +1,2886 @@
+[
+  {
+    "Q": "Can I use an AED on someone without training?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "What steps should I take if a person is having a heart attack?",
+    "A": "Stay calm. Call for emergency medical assistance immediately. If an AED is available, use it according to the instructions while waiting for professional help."
+  },
+  {
+    "Q": "What is the best way to store antibiotic ointment?",
+    "A": "Keep it in a cool, dry place, tightly sealed, and away from direct sunlight to maintain its effectiveness."
+  },
+  {
+    "Q": "How can I assist someone who has been bitten by a snake?",
+    "A": "Keep the person calm and still, immobilize the affected area, and seek medical help immediately."
+  },
+  {
+    "Q": "What should I do if there is a crowd panic in the store?",
+    "A": "Move calmly toward the nearest exit and avoid pushing or running. Follow store personnel instructions, and if you see anyone injured, notify security or emergency services."
+  },
+  {
+    "Q": "What should I do if I suspect someone is having a stroke?",
+    "A": "Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services immediately if you notice these symptoms."
+  },
+  {
+    "Q": "Can you explain the CPR process?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "How can I help someone who has a seizure in water?",
+    "A": "Support the person\u2019s head above the water and move them to a safe area where they can lie down. Do not restrain their movements but keep them safe from injury. Seek medical help immediately."
+  },
+  {
+    "Q": "What should I do if I see someone being harassed by another customer?",
+    "A": "Notify store security or management immediately. Do not engage with the aggressor directly and ensure your own safety as well as the victim\u2019s."
+  },
+  {
+    "Q": "What should I do if someone is having a mental health crisis?",
+    "A": "Encourage them to talk and listen to their concerns without judgment. Ensure their safety by removing any dangerous items nearby. If necessary, call emergency services or a mental health helpline for assistance."
+  },
+  {
+    "Q": "What should I do if someone appears to be in shock after an injury?",
+    "A": "Have the person lie down with their legs elevated, keep them warm with a blanket, and call for medical assistance. Monitor their condition while waiting for help."
+  },
+  {
+    "Q": "What is the difference between single-use and multi-use antibiotic ointments?",
+    "A": "Single-use ointments are pre-packaged for convenience and hygiene, while multi-use tubes should be used with clean hands or applicators to prevent contamination."
+  },
+  {
+    "Q": "What should I do before turning on the AED?",
+    "A": "Ensure the area is safe for both the victim and yourself. Check for hazards like water, electrical wires, or traffic if you are outside. Then proceed to turn on the AED."
+  },
+  {
+    "Q": "What should I do if someone is having an asthma attack?",
+    "A": "Help them use their inhaler if they have one, and encourage them to breathe slowly. Call for medical assistance if their condition worsens."
+  },
+  {
+    "Q": "What should I do if the AED gives a 'check pads' warning?",
+    "A": "Ensure the pads are firmly attached and placed correctly on the chest. If necessary, replace them with a spare set of pads."
+  },
+  {
+    "Q": "What actions should I take if someone is choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "What should I do if I encounter a fire in the store?",
+    "A": "Activate the fire alarm, evacuate the area, and call emergency services from a safe location."
+  },
+  {
+    "Q": "What should I do if someone is stuck in an escalator?",
+    "A": "Use the emergency stop button on the escalator if possible and notify store personnel immediately. Keep the person calm and ensure they are safe while waiting for help."
+  },
+  {
+    "Q": "What do I do if the AED malfunctions?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "How do I use a triangle bandage as a sling?",
+    "A": "Fold the bandage into a triangle, position the arm in the center, and tie the ends around the neck to support the arm."
+  },
+  {
+    "Q": "How do I respond if the AED says 'no shock needed'?",
+    "A": "Continue performing CPR until emergency services arrive or the person shows signs of life. The AED will analyze again and give instructions if needed."
+  },
+  {
+    "Q": "What should I do if a fire alarm goes off and I am on a higher floor?",
+    "A": "Use the stairs to exit the building, never the elevator. Follow the emergency exit signs, and remain calm while evacuating."
+  },
+  {
+    "Q": "When should I use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "How can I tell if an elastic bandage is too tight?",
+    "A": "If the skin beyond the bandage becomes cold, numb, or changes color, loosen the bandage immediately."
+  },
+  {
+    "Q": "How do I assist a person who has been struck by lightning?",
+    "A": "Call emergency services immediately. Check for responsiveness and breathing, and perform CPR if they are unresponsive."
+  },
+  {
+    "Q": "Is an AED the same as a manual defibrillator?",
+    "A": "No, an AED is different from a manual defibrillator. While both deliver electric shocks, an AED is automated and designed for use by laypeople, providing instructions and determining whether a shock is necessary. Manual defibrillators require trained medical personnel to operate."
+  },
+  {
+    "Q": "What should I do if the AED delivers a shock but the victim shows no response?",
+    "A": "Continue CPR immediately after the shock is delivered and follow the AED\u2019s prompts. It may advise delivering another shock if necessary."
+  },
+  {
+    "Q": "Can an AED be used in a public setting like a shopping mall?",
+    "A": "Yes, AEDs are often placed in public areas for accessibility. Make sure to clear the area around the victim before using the AED and ensure no one is touching the victim during shock delivery."
+  },
+  {
+    "Q": "What should I do if a person is bleeding heavily?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "What should I do if the AED does not power on?",
+    "A": "Check the battery compartment to ensure it is properly inserted. If the AED still doesn't work, continue CPR and call for emergency services."
+  },
+  {
+    "Q": "What should I do if I\u2019m in a building during a bomb threat?",
+    "A": "Remain calm and follow the evacuation plan provided by the authorities. Avoid using your phone, and leave any personal belongings behind. Follow all instructions from emergency personnel."
+  },
+  {
+    "Q": "What should I do if I don\u2019t have disposable gloves during first aid?",
+    "A": "Wash your hands thoroughly before and after providing care, and avoid direct contact with blood or bodily fluids."
+  },
+  {
+    "Q": "Are there different types of AEDs available?",
+    "A": "Yes, there are different models of AEDs available, including fully automatic and semi-automatic versions. Semi-automatic AEDs require the user to press a button to deliver the shock, while fully automatic AEDs deliver the shock automatically if needed."
+  },
+  {
+    "Q": "What actions should I take if the AED fails?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "Can anyone use an AED?",
+    "A": "Yes, modern AEDs are designed to be user-friendly and can be used by anyone, even without medical training. They provide voice prompts and visual instructions to guide users through each step of the process."
+  },
+  {
+    "Q": "When should I use antibiotic ointment?",
+    "A": "Use it for minor injuries where infection prevention is important, such as small cuts, burns, or scrapes."
+  },
+  {
+    "Q": "What should I do if a fire alarm goes off?",
+    "A": "Immediately follow the store\u2019s evacuation plan. Use marked emergency exits and avoid using elevators. Do not attempt to gather personal belongings."
+  },
+  {
+    "Q": "What should I do if the AED says 'no shock advised'?",
+    "A": "Continue performing CPR until emergency services arrive or the person shows signs of life. The AED will analyze again and give instructions if needed."
+  },
+  {
+    "Q": "Can I wash and reuse a triangle bandage?",
+    "A": "Yes, if it\u2019s made of fabric and has been washed and disinfected properly. Avoid reuse if it\u2019s been heavily soiled or torn."
+  },
+  {
+    "Q": "What do I do if a customer collapses suddenly?",
+    "A": "Check if they are breathing and responsive. If they\u2019re not, call for emergency medical help immediately and start CPR if needed."
+  },
+  {
+    "Q": "When do I need to use an AED on someone?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What should I do if I notice someone is shoplifting?",
+    "A": "Do not confront them directly. Notify store security or a staff member, and let them handle the situation."
+  },
+  {
+    "Q": "What should I do if there is a power outage while I'm shopping?",
+    "A": "Remain calm, use your phone\u2019s flashlight to navigate if needed, and follow emergency exit signs. Wait for instructions from store personnel."
+  },
+  {
+    "Q": "What should I do if an adhesive bandage causes skin irritation?",
+    "A": "Remove the bandage immediately, clean the area with water, and apply a hypoallergenic bandage or sterile gauze with medical tape."
+  },
+  {
+    "Q": "How can I stop heavy bleeding?",
+    "A": "Apply firm pressure on the wound with a clean cloth or bandage. If possible, elevate the injured area above the heart while keeping pressure on the wound."
+  },
+  {
+    "Q": "How can I help someone who is hyperventilating?",
+    "A": "Encourage them to take slow, deep breaths. If available, have them breathe into a paper bag or cup their hands over their mouth and nose to regulate their breathing. Reassure them and remain calm."
+  },
+  {
+    "Q": "What should I do if the AED stops working?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "Can an untrained person use an AED in an emergency?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "How do I assist someone with a head injury?",
+    "A": "Keep them still and call for medical assistance. Avoid moving them unless they are in immediate danger."
+  },
+  {
+    "Q": "What should I do if an AED gives a 'low battery' warning?",
+    "A": "Continue following the AED's instructions. Alert emergency personnel about the battery status so they can bring backup equipment if needed."
+  },
+  {
+    "Q": "What steps should I follow if the AED fails during use?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "What should I do if I see someone being harassed online?",
+    "A": "Document the evidence, report it to the platform, and encourage the victim to seek support."
+  },
+  {
+    "Q": "What precautions should I take when using an instant cold pack?",
+    "A": "Avoid placing it directly on the skin for prolonged periods to prevent frostbite."
+  },
+  {
+    "Q": "How do I assist someone who is experiencing a panic attack?",
+    "A": "Help them move to a quieter space, encourage slow breathing, and stay with them until they feel better."
+  },
+  {
+    "Q": "How do I help someone with a head injury?",
+    "A": "Keep them still and call for medical assistance. Avoid moving them unless they are in danger."
+  },
+  {
+    "Q": "What should I do if I witness someone shoplifting?",
+    "A": "Do not confront the individual. Notify store security or a staff member discreetly and let them handle the situation."
+  },
+  {
+    "Q": "How do I use medical scissors?",
+    "A": "Use the scissors carefully to cut only the desired material, ensuring you avoid damaging the skin or the wound."
+  },
+  {
+    "Q": "What precautions should I take when using tweezers?",
+    "A": "Always sterilize them before and after use to avoid introducing infections."
+  },
+  {
+    "Q": "How should I give chest compressions during CPR?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "Can elastic bandages be used on swollen joints?",
+    "A": "Yes, wrap the bandage snugly around the joint to reduce swelling, but ensure it is not too tight to avoid cutting off circulation."
+  },
+  {
+    "Q": "What is a sterile gauze pad?",
+    "A": "A sterile gauze pad is a clean, absorbent material used to cover and protect wounds or absorb blood and other fluids."
+  },
+  {
+    "Q": "How do I help someone having a panic attack in the store?",
+    "A": "Encourage them to breathe slowly and deeply. Stay with them, keep calm, and reassure them until they feel better or emergency help arrives."
+  },
+  {
+    "Q": "How do I assist someone who is having a nosebleed?",
+    "A": "Have them sit down, lean forward, and pinch their nostrils together for 10-15 minutes. Seek help if it doesn\u2019t stop."
+  },
+  {
+    "Q": "What should I do if I run out of adhesive bandages?",
+    "A": "You can use a clean piece of sterile gauze and secure it with tape or an elastic bandage as a temporary solution."
+  },
+  {
+    "Q": "What should I do if the AED pads won\u2019t stick to the skin?",
+    "A": "Clean and dry the chest thoroughly. If chest hair is preventing adhesion, use a razor from the first aid kit to shave the area."
+  },
+  {
+    "Q": "What if I accidentally apply too much antibiotic ointment?",
+    "A": "Wipe off the excess gently with a clean tissue or cloth, ensuring the wound remains covered with a thin layer."
+  },
+  {
+    "Q": "How can I ensure the AED pads adhere properly if the victim's chest is cold?",
+    "A": "Warm the victim\u2019s chest using a dry cloth, if available, and make sure the area is completely dry before applying the AED pads."
+  },
+  {
+    "Q": "How do I assist someone who is suffering from a headache?",
+    "A": "Offer them water and a quiet place to rest. Suggest they take any medications they may need."
+  },
+  {
+    "Q": "How do I use an oxygen mask?",
+    "A": "Place the mask over the person's nose and mouth, adjust the straps for a snug fit, and connect it to an oxygen supply if available."
+  },
+  {
+    "Q": "How can I help someone choking on liquid?",
+    "A": "Encourage the person to cough forcefully to expel the liquid. If they cannot breathe, use back blows or abdominal thrusts to clear the airway."
+  },
+  {
+    "Q": "How do I check if the AED is working before an emergency?",
+    "A": "Check the AED\u2019s status indicator, usually a green light, which shows that it\u2019s functional. Regular maintenance should include ensuring the pads are not expired and the battery is fully charged."
+  },
+  {
+    "Q": "What should I do if someone is experiencing severe muscle cramps?",
+    "A": "Help them stretch the affected muscle gently and provide water. Call for medical assistance if it does not improve."
+  },
+  {
+    "Q": "How do I help someone who is unconscious but breathing?",
+    "A": "Place the person in the recovery position to keep their airway clear. Monitor their breathing and wait for emergency services to arrive."
+  },
+  {
+    "Q": "What should I do if there is a bomb threat in the store?",
+    "A": "Follow store personnel's evacuation procedures, leave your belongings behind, and move calmly to a safe location. Avoid using your phone until you are safely away."
+  },
+  {
+    "Q": "What should I do if someone is experiencing a heart attack but doesn't have an AED nearby?",
+    "A": "Call emergency services immediately and begin performing CPR until help arrives. If an AED becomes available, use it as soon as possible."
+  },
+  {
+    "Q": "What should I do if the AED stops working during use?",
+    "A": "If the AED malfunctions or stops working, continue CPR and call for emergency services if they have not yet arrived."
+  },
+  {
+    "Q": "Can I use an AED if the victim is lying on wet grass?",
+    "A": "If possible, move the victim to a dry area. If this is not feasible, ensure the victim\u2019s chest is dry before applying the AED pads."
+  },
+  {
+    "Q": "What is the proper method for administering CPR?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "What do I do if someone faints?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "When should I use tweezers?",
+    "A": "Use them to remove splinters, glass shards, or other debris from a wound."
+  },
+  {
+    "Q": "What should I do if an adhesive bandage peels off in wet conditions?",
+    "A": "Dry the area, clean it, and replace it with a waterproof adhesive bandage for better adhesion."
+  },
+  {
+    "Q": "What is the proper method for administering CPR?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "What should I do if medical scissors become dull?",
+    "A": "Sharpen the scissors using a sharpening tool or replace them if sharpening is not possible."
+  },
+  {
+    "Q": "What should I do if someone faints?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "How can I recognize the signs of a stroke?",
+    "A": "Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services immediately if you notice these symptoms."
+  },
+  {
+    "Q": "How can I stop heavy bleeding?",
+    "A": "Apply firm pressure on the wound with a clean cloth or bandage. If possible, elevate the injured area above the heart while keeping pressure on the wound."
+  },
+  {
+    "Q": "What should I do if the AED advises a shock but the victim is still breathing?",
+    "A": "If the victim is breathing, the AED should not advise a shock. Ensure you are following the prompts correctly and monitor the victim's breathing closely."
+  },
+  {
+    "Q": "In which situations should I use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "How do I assist someone who has a suspected spinal injury?",
+    "A": "Do not move them unless absolutely necessary. Call for emergency assistance immediately and support their head and neck to prevent movement."
+  },
+  {
+    "Q": "What should I do if an adhesive bandage is too small for the wound?",
+    "A": "Cover the wound with sterile gauze and secure it with medical tape or an elastic bandage for larger coverage."
+  },
+  {
+    "Q": "What should I do if the victim is covered in sweat or water?",
+    "A": "Dry the victim's chest thoroughly before applying the AED pads to ensure proper contact and functionality of the device."
+  },
+  {
+    "Q": "How do I perform the Heimlich maneuver on someone choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "How do I handle an AED malfunction?",
+    "A": "If the AED malfunctions, continue with CPR and call for emergency assistance. If possible, use another AED if available."
+  },
+  {
+    "Q": "What should I do if I see someone having a diabetic emergency?",
+    "A": "Ask if they have any diabetic medication or fast-acting glucose. If they are conscious and able to swallow, give them something sugary like juice or candy. Call for medical assistance if they don't improve quickly."
+  },
+  {
+    "Q": "What precautions should I take when using an antiseptic wipe?",
+    "A": "Avoid using it on deep wounds, large burns, or sensitive skin without medical advice."
+  },
+  {
+    "Q": "How do I assist someone who is experiencing a panic attack?",
+    "A": "Help them move to a quieter space, encourage slow breathing, and stay with them until they feel better."
+  },
+  {
+    "Q": "How do I perform CPR on someone?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "What should I do if someone is choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "What does 'automated' mean in Automated External Defibrillator?",
+    "A": "The term 'automated' means that the AED automatically analyzes the heart rhythm and determines if a shock is necessary. It guides the user through the process with visual and audio prompts, making it easier for non-medical personnel to use."
+  },
+  {
+    "Q": "When should I use a sterile gauze pad?",
+    "A": "Use it for larger wounds, burns, or injuries where you need to absorb fluids and protect against infection."
+  },
+  {
+    "Q": "What should I do if I see a customer having a seizure?",
+    "A": "Clear the area around them, protect their head, and do not restrain them. Call for medical help once the seizure is over."
+  },
+  {
+    "Q": "What should I do if I see someone having a stroke?",
+    "A": "Look for signs like facial drooping, arm weakness, and speech difficulties. Call emergency services right away and note the time symptoms began."
+  },
+  {
+    "Q": "How do I help someone who is drowning?",
+    "A": "If safe to do so, get the person out of the water. Call for emergency help. Start CPR immediately if they are unresponsive and not breathing."
+  },
+  {
+    "Q": "How should I evacuate during a fire if the exits are blocked?",
+    "A": "If the exits are blocked, remain in a safe room, close the door, and seal any cracks to prevent smoke from entering. Call emergency services and signal for help from a window if possible."
+  },
+  {
+    "Q": "What should I do if someone has a severe reaction to a medication?",
+    "A": "Call emergency services immediately, and provide as much information as possible about the medication."
+  },
+  {
+    "Q": "What should I do if someone is showing signs of severe anxiety?",
+    "A": "Reassure them and encourage slow, deep breaths. Help them find a calm environment and stay with them until they feel better."
+  },
+  {
+    "Q": "How do I treat someone who has fainted?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "How do I use an antiseptic wipe?",
+    "A": "Gently rub the wipe over the wound or the surrounding skin to clean and disinfect it before applying a bandage."
+  },
+  {
+    "Q": "What precautions should I take when using medical scissors?",
+    "A": "Handle them carefully to avoid accidental cuts. Keep them clean and sterilized after use."
+  },
+  {
+    "Q": "What should I do if there is a fire and the store exits are blocked?",
+    "A": "Find a safe room, close the door, and seal any cracks to prevent smoke from entering. Signal for help from a window or use a phone to call for emergency assistance."
+  },
+  {
+    "Q": "What should I do if the AED tells me 'shock advised'?",
+    "A": "Ensure everyone is clear of the victim. The AED will either automatically deliver the shock or prompt you to press the shock button. Only proceed when the AED instructs you to do so."
+  },
+  {
+    "Q": "What should I do if the AED stops working?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "How do I respond if the AED isn't working properly?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "What should I do if I suspect someone is intoxicated or under the influence of drugs?",
+    "A": "Keep a safe distance and alert store security or management. Avoid confrontation and ensure the person does not harm themselves or others."
+  },
+  {
+    "Q": "How do I prepare the victim if they have a lot of chest hair?",
+    "A": "Use the razor provided in the AED kit to shave the area where the pads will be placed to ensure good contact between the pads and the skin."
+  },
+  {
+    "Q": "How do I handle someone who has inhaled toxic fumes?",
+    "A": "Move them to fresh air immediately. Loosen any tight clothing and monitor their breathing. Call for emergency medical assistance."
+  },
+  {
+    "Q": "How do I continue CPR while using the AED?",
+    "A": "After the AED delivers a shock or if no shock is advised, the AED will prompt you to perform CPR. Continue with chest compressions and follow the AED\u2019s instructions until it tells you to stop for another analysis."
+  },
+  {
+    "Q": "Is it necessary to check the AED pads for expiration dates?",
+    "A": "Yes, AED pads have expiration dates, and expired pads may not adhere properly or function as needed. Regularly check and replace them to ensure readiness."
+  },
+  {
+    "Q": "What actions should I take if someone is choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "There's a fire in the store. What should I do?",
+    "A": "Evacuate immediately by following the emergency exit signs. Do not use elevators. If possible, assist others, but prioritize your safety."
+  },
+  {
+    "Q": "What is the first step when using an AED?",
+    "A": "The first step is to turn on the AED. This may involve pressing a power button or lifting the lid, depending on the model. Once it is on, follow the voice and visual prompts provided."
+  },
+  {
+    "Q": "How do I assist someone who has a suspected spinal injury?",
+    "A": "Do not move them unless absolutely necessary. Call for emergency assistance immediately and support their head and neck to prevent movement."
+  },
+  {
+    "Q": "How do I assist someone who is choking on food?",
+    "A": "Encourage them to cough forcefully. If they can't breathe, perform abdominal thrusts or back blows until the obstruction is cleared."
+  },
+  {
+    "Q": "Can I use an AED without formal training?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "Can tweezers be used to remove glass from a wound?",
+    "A": "Yes, but ensure the tweezers are sterilized and the wound is cleaned afterward to prevent infection."
+  },
+  {
+    "Q": "How do I ensure the victim is safe from further injury during AED use?",
+    "A": "Make sure the victim is lying flat on a firm surface, and clear the area of any potential hazards before using the AED."
+  },
+  {
+    "Q": "What is the correct way to store an unopened instant cold pack?",
+    "A": "Store it in a cool, dry place away from direct sunlight to preserve its effectiveness."
+  },
+  {
+    "Q": "What should I do if I find someone unconscious?",
+    "A": "Check for breathing. If they are not breathing, call emergency services and start CPR immediately."
+  },
+  {
+    "Q": "How can I recognize the signs of a stroke?",
+    "A": "Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services immediately if you notice these symptoms."
+  },
+  {
+    "Q": "Can an untrained person use an AED in an emergency?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "What should I do if I see someone being harassed?",
+    "A": "Intervene if safe to do so, or alert store security or law enforcement to the situation."
+  },
+  {
+    "Q": "How do I help someone who is experiencing severe confusion?",
+    "A": "Stay calm and reassure them. Call for medical assistance to evaluate their condition."
+  },
+  {
+    "Q": "What steps should I take if someone is having an allergic reaction?",
+    "A": "If they have an epinephrine auto-injector (EpiPen), assist them in using it. Call emergency services immediately if their symptoms worsen or they have trouble breathing."
+  },
+  {
+    "Q": "How can I prevent an elastic bandage from slipping?",
+    "A": "Wrap the bandage snugly and secure it with clips or tape. Avoid over-tightening to ensure circulation is not restricted."
+  },
+  {
+    "Q": "What should I do if someone shows signs of alcohol poisoning in the store?",
+    "A": "Call for emergency medical assistance immediately. Keep the person upright and awake if possible, or place them on their side if they are unconscious to prevent choking."
+  },
+  {
+    "Q": "In which situations should I use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "Can medical scissors cut through tough materials?",
+    "A": "Yes, medical scissors are designed to cut through bandages, gauze, and even light clothing in emergencies."
+  },
+  {
+    "Q": "What if someone faints but quickly regains consciousness?",
+    "A": "Encourage them to lie down and rest for a while. Offer water and keep them calm. If they faint again or show signs of weakness, confusion, or chest pain, call for emergency medical help."
+  },
+  {
+    "Q": "What do I do if the AED malfunctions?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "What actions should I take if someone is experiencing a heart attack in the store?",
+    "A": "Call emergency services immediately. Help the person sit comfortably and encourage them to stay calm. If they have nitroglycerin, assist them in using it."
+  },
+  {
+    "Q": "What should I do if I see someone collapse in a public space?",
+    "A": "Check for responsiveness and breathing. Call emergency services and begin CPR if they are unresponsive and not breathing."
+  },
+  {
+    "Q": "What should I do if I encounter someone who is fainting?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "Can I use an AED on a child under one year old?",
+    "A": "An AED can be used on infants if pediatric pads are available. If not, use adult pads, but make sure they don\u2019t touch each other by placing one pad on the chest and the other on the back."
+  },
+  {
+    "Q": "What should I do if the AED's voice prompts are difficult to hear in a noisy environment?",
+    "A": "Carefully follow the visual instructions on the AED screen. Many AEDs display visual cues or symbols to guide you through each step."
+  },
+  {
+    "Q": "Can I use an instant cold pack on broken skin?",
+    "A": "No, do not apply it directly to open wounds. Use it around the area to reduce swelling."
+  },
+  {
+    "Q": "How can I tell if someone is in shock after an accident?",
+    "A": "Symptoms of shock include pale, cold, or clammy skin, rapid breathing, confusion, and weakness. If you notice these symptoms, call emergency services and try to keep the person warm and calm."
+  },
+  {
+    "Q": "What do I do if someone collapses in the parking lot?",
+    "A": "Check for responsiveness and breathing. Call emergency services immediately and start CPR if necessary. Keep the area safe from traffic."
+  },
+  {
+    "Q": "What if I accidentally use an expired antiseptic wipe?",
+    "A": "While it may still work, its effectiveness could be reduced. Use a fresh wipe if available."
+  },
+  {
+    "Q": "Should I continue using the AED if the battery indicator is low?",
+    "A": "If the AED has enough power to turn on, proceed with its use and follow the prompts. If the battery dies during use, continue CPR until help arrives."
+  },
+  {
+    "Q": "What should I do if someone is bitten by a venomous snake?",
+    "A": "Keep them calm and immobile, keeping the bite below heart level. Call emergency services immediately and avoid trying to suck out the venom."
+  },
+  {
+    "Q": "Can antiseptic wipes be used to clean tools like scissors or tweezers?",
+    "A": "Yes, antiseptic wipes can help sterilize tools before using them on a wound."
+  },
+  {
+    "Q": "Can I use a sterile gauze pad to stop heavy bleeding?",
+    "A": "Yes, apply firm pressure with the gauze to control heavy bleeding and secure it with an elastic bandage."
+  },
+  {
+    "Q": "How do I know if someone is having a stroke?",
+    "A": "Look for the FAST signs: Face drooping, Arm weakness, Speech difficulty, and Time to call emergency services immediately."
+  },
+  {
+    "Q": "What do I do if the AED's voice prompts are not working?",
+    "A": "If the voice prompts are not working, refer to the visual instructions on the AED screen or the pad diagrams. Many AEDs provide step-by-step visual guidance."
+  },
+  {
+    "Q": "What should I do if someone is bitten by an animal inside the store?",
+    "A": "Call for medical help immediately. Keep the person calm and try to immobilize the affected area. If safe, take note of the animal involved."
+  },
+  {
+    "Q": "What to do if a customer gets stung by a bee and shows signs of an allergic reaction?",
+    "A": "If they have an epinephrine auto-injector (EpiPen), help them use it immediately. Call emergency services if symptoms worsen or if they have difficulty breathing."
+  },
+  {
+    "Q": "When should I use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What if I can\u2019t secure the end of an elastic bandage?",
+    "A": "You can tuck the loose end under the wrapped layers or use a small piece of tape to secure it."
+  },
+  {
+    "Q": "How do I put on disposable gloves without contaminating them?",
+    "A": "Wash your hands, hold the gloves by the cuff, and slide them onto your hands without touching the outside surface."
+  },
+  {
+    "Q": "What should I do if the tweezers slip while removing an object?",
+    "A": "Sterilize the tweezers again and carefully try to remove the object without pushing it deeper into the skin."
+  },
+  {
+    "Q": "What is the purpose of using an AED?",
+    "A": "An AED (Automated External Defibrillator) is a medical device that can analyze a person's heart rhythm and deliver an electrical shock if needed to help the heart re-establish an effective rhythm."
+  },
+  {
+    "Q": "What should I do if someone has an asthma attack but doesn\u2019t have their inhaler?",
+    "A": "Encourage the person to sit upright and take slow breaths. Try to keep them calm and call emergency services if the condition worsens. Do not lie them down or give them anything to eat or drink."
+  },
+  {
+    "Q": "Can I use an AED on someone without training?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "How do I treat someone who has fainted?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "How can I help someone with low blood sugar?",
+    "A": "Give them a sugary drink or food like juice or candy. If they do not improve within 10 minutes or lose consciousness, call for medical help."
+  },
+  {
+    "Q": "How should I respond if the AED\u2019s prompts are unclear?",
+    "A": "If the prompts are unclear, refer to the visual instructions on the AED screen. Most AEDs have visual cues to assist users in emergency situations."
+  },
+  {
+    "Q": "What should I do if someone shows signs of a stroke?",
+    "A": "Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services immediately if you notice these symptoms."
+  },
+  {
+    "Q": "What should I do if I see someone having a panic attack during an emergency?",
+    "A": "Stay with them and encourage them to take slow, deep breaths. Reassure them and help them move to a quieter location if possible. If their condition worsens, seek medical help."
+  },
+  {
+    "Q": "What if I cannot find the AED pads in an emergency?",
+    "A": "AED pads are typically stored inside the AED case or pouch. Look for them as soon as you open the AED. If you cannot find them, perform CPR until emergency responders arrive."
+  },
+  {
+    "Q": "What do I do during a robbery?",
+    "A": "Stay calm, avoid sudden movements, and comply with the demands of the robber. Do not try to confront them. Call emergency services when it's safe."
+  },
+  {
+    "Q": "What do I do if sterile gauze sticks to the wound?",
+    "A": "Moisten the gauze with saline or clean water to loosen it gently, then remove it without pulling on the wound."
+  },
+  {
+    "Q": "What steps should I take if a customer has a panic attack in a crowded area?",
+    "A": "Move them to a quieter area, encourage slow, deep breaths, and stay with them until they calm down or medical assistance arrives."
+  },
+  {
+    "Q": "What should I do if I see someone having a seizure?",
+    "A": "Move objects away to prevent injury. Don\u2019t restrain the person or put anything in their mouth. Once the seizure ends, place them on their side and wait for help."
+  },
+  {
+    "Q": "How should I respond to a choking infant?",
+    "A": "Hold them face down on your forearm and give 5 back blows. If they don't respond, turn them over and give 5 chest thrusts."
+  },
+  {
+    "Q": "What should I do if someone ingests a toxic substance in the store?",
+    "A": "Call poison control or emergency services immediately. Try to determine what substance was ingested, but do not induce vomiting unless instructed to do so by medical professionals."
+  },
+  {
+    "Q": "Is it safe to use an AED in a bathroom?",
+    "A": "Only use an AED in a bathroom if the floor is dry and the victim's chest is completely dry. Otherwise, move the victim to a dry area before using the AED."
+  },
+  {
+    "Q": "What should I do if someone is showing signs of severe anxiety?",
+    "A": "Reassure them and encourage slow, deep breaths. Help them find a calm environment and stay with them until they feel better."
+  },
+  {
+    "Q": "How do I treat a burn injury?",
+    "A": "Cool the burn with cool (not cold) water for 10-20 minutes. Cover the burn with a clean, non-stick dressing. Do not apply ice, butter, or any ointments."
+  },
+  {
+    "Q": "How do I open the AED and access the pads?",
+    "A": "Most AEDs have a lid or cover that you lift to access the pads. Opening the AED usually also turns it on and starts the voice instructions guiding you through the process."
+  },
+  {
+    "Q": "What should I do if the victim has a medication patch on their chest?",
+    "A": "Remove the patch using a gloved hand, wipe the area clean, and then place the AED pad as instructed."
+  },
+  {
+    "Q": "How do I help someone having a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "Is training required to use an AED?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "How do I help someone who is feeling faint after standing for a long time?",
+    "A": "Help them sit down, elevate their legs, and provide water. Call for medical assistance if they do not recover quickly."
+  },
+  {
+    "Q": "How do I cut tough materials like clothing during emergencies with medical scissors?",
+    "A": "Use blunt-tipped medical scissors for safety, and cut away from the body to prevent accidental injury."
+  },
+  {
+    "Q": "What should I do if someone starts choking and can\u2019t breathe?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "What do I do if I see someone being harassed by another customer?",
+    "A": "Notify store security or management immediately. Do not engage with the aggressor directly and ensure your own safety as well as the victim\u2019s."
+  },
+  {
+    "Q": "Can adhesive bandages be used on sensitive skin?",
+    "A": "Yes, but choose hypoallergenic adhesive bandages designed for sensitive skin to prevent irritation or allergic reactions."
+  },
+  {
+    "Q": "What do I do if there is a suspicious unattended bag in the store?",
+    "A": "Do not touch or move the bag. Alert store personnel immediately and move to a safe location. Follow store management\u2019s instructions and wait for authorities to assess the situation."
+  },
+  {
+    "Q": "How long does it take for an AED to deliver a shock?",
+    "A": "Once the AED is turned on and the pads are properly attached, it typically takes less than a minute for the AED to analyze the heart rhythm and deliver a shock if necessary."
+  },
+  {
+    "Q": "Can antiseptic wipes be used for cleaning large wounds?",
+    "A": "Antiseptic wipes are ideal for cleaning around the wound. For large wounds, rinse with clean water before applying other treatments."
+  },
+  {
+    "Q": "How should I position the victim when using an AED?",
+    "A": "Lay the victim flat on their back on a firm, dry surface. Make sure the head is tilted back slightly to open the airway if needed."
+  },
+  {
+    "Q": "What is the correct way to give chest compressions during CPR?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "What is the procedure if an AED pad accidentally falls off during use?",
+    "A": "Quickly reattach the pad to the chest, making sure it adheres properly. Ensure the area is dry and free of hair or debris."
+  },
+  {
+    "Q": "What should I do if someone is injured by falling merchandise?",
+    "A": "Do not attempt to move them unless necessary. Call for medical assistance and alert store personnel. Stay with the injured person until help arrives."
+  },
+  {
+    "Q": "What do I do after a person has a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "Can you explain how to use an AED?",
+    "A": "Open the AED and follow the audio or visual prompts. Ensure the person is dry, apply the pads to their bare chest, and let the AED analyze the heart rhythm. Press the shock button if instructed."
+  },
+  {
+    "Q": "What should I do if disposable gloves rip during use?",
+    "A": "Remove the torn gloves immediately, wash your hands, and replace them with a new pair."
+  },
+  {
+    "Q": "How long can I use an instant cold pack?",
+    "A": "Apply it for 15-20 minutes at a time. Wait at least 30 minutes before reapplying to avoid skin damage."
+  },
+  {
+    "Q": "What do I do if I see someone being assaulted in the store?",
+    "A": "Do not intervene directly. Move to a safe location and call store security or law enforcement immediately. Provide as much detail as possible about the situation."
+  },
+  {
+    "Q": "Why is an AED important during cardiac arrest?",
+    "A": "An AED is crucial because it can deliver a life-saving shock to a person in cardiac arrest. Quick defibrillation within the first few minutes of a cardiac event greatly increases the chances of survival before emergency medical services arrive."
+  },
+  {
+    "Q": "What should I do for a heavy bleeding injury?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "What actions should I take if someone is having a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "What should I do if I notice a dangerous item on the store floor, like broken glass?",
+    "A": "Do not attempt to clean it yourself. Notify store personnel immediately to have the area secured and cleaned up to prevent injury."
+  },
+  {
+    "Q": "What do I do if someone is suffering from hypothermia in the store?",
+    "A": "Move them to a warmer area, remove any wet clothing, and wrap them in blankets or dry clothes. Call for emergency assistance and provide warm drinks if they are conscious."
+  },
+  {
+    "Q": "How do I secure a triangle bandage on the head?",
+    "A": "Wrap it around the head, covering the wound, and tie it securely at the back while ensuring it is snug but not too tight."
+  },
+  {
+    "Q": "How is an AED powered?",
+    "A": "AEDs are typically powered by long-lasting batteries designed for emergency use. The batteries need to be checked and replaced periodically to ensure the device is always ready for use."
+  },
+  {
+    "Q": "What should I do if I see someone acting violently?",
+    "A": "Do not confront them. Move to a safe area and notify security or law enforcement."
+  },
+  {
+    "Q": "How do I treat someone who is bleeding heavily?",
+    "A": "Apply firm pressure on the wound with a clean cloth or bandage. If possible, elevate the injured area above the heart while keeping pressure on the wound."
+  },
+  {
+    "Q": "What should I do if a sterile gauze pad becomes saturated quickly?",
+    "A": "Apply additional sterile gauze pads on top and secure them with a bandage or tape to maintain pressure and absorb excess fluids."
+  },
+  {
+    "Q": "How do I handle a victim who is unconscious and lying face down?",
+    "A": "Carefully roll the victim onto their back to ensure you have access to the chest for AED use and CPR. Ensure the surface is firm and flat for effective compressions."
+  },
+  {
+    "Q": "How do I determine if I need to use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What is an oxygen mask used for?",
+    "A": "An oxygen mask is used to deliver oxygen to someone who is experiencing difficulty breathing or has low oxygen levels."
+  },
+  {
+    "Q": "What should I do if the AED advises a shock but the victim starts breathing?",
+    "A": "If the victim starts breathing, do not deliver the shock. Instead, continue monitoring their breathing and pulse until emergency help arrives."
+  },
+  {
+    "Q": "What should I do if I see someone with a visible weapon?",
+    "A": "Do not approach the individual. Alert store security and law enforcement immediately."
+  },
+  {
+    "Q": "Is it safe to use an AED on a soft surface like a bed?",
+    "A": "If possible, move the victim to a hard, flat surface like the floor. This allows for effective CPR and AED use, as soft surfaces can reduce compression effectiveness."
+  },
+  {
+    "Q": "How can I help someone experiencing a severe allergic reaction?",
+    "A": "If they have an epinephrine auto-injector (EpiPen), help them use it immediately. Call for emergency services, especially if symptoms worsen or breathing becomes difficult."
+  },
+  {
+    "Q": "Is it safe to cut a sterile gauze pad to fit a smaller wound?",
+    "A": "Yes, as long as you use clean scissors and ensure the cut edges don\u2019t introduce fibers into the wound."
+  },
+  {
+    "Q": "Can I use the AED if I\u2019m not trained?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "How do I handle a person having a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "Can an AED be used on a pregnant woman?",
+    "A": "Yes, an AED can be safely used on a pregnant woman. Administering a shock could save both the mother and the baby\u2019s lives."
+  },
+  {
+    "Q": "What is the proper sequence when using an AED on an adult victim?",
+    "A": "First, turn on the AED. Next, expose and prepare the chest. Apply the pads as instructed, and follow the voice prompts. Make sure no one is touching the victim during rhythm analysis and shock delivery."
+  },
+  {
+    "Q": "What should I do if I see someone vandalizing property?",
+    "A": "Do not confront them. Contact security or law enforcement immediately."
+  },
+  {
+    "Q": "What do I do if someone is showing signs of hypoglycemia?",
+    "A": "Give them a sugary snack or drink if they are conscious. If they are unresponsive, call emergency services immediately."
+  },
+  {
+    "Q": "What should I do if I suspect someone has a concussion?",
+    "A": "Keep them still and observe their symptoms. Seek medical attention, especially if they have persistent headache or confusion."
+  },
+  {
+    "Q": "What should I do if someone is vomiting and appears very ill?",
+    "A": "Keep them sitting upright or lying on their side to prevent choking. Offer water and stay with them until medical help arrives. Call emergency services if they become unresponsive or their condition worsens."
+  },
+  {
+    "Q": "What should I do if a person is suffering from frostbite?",
+    "A": "Move them to a warm area, gently warm the affected area with body heat, and seek medical assistance."
+  },
+  {
+    "Q": "How do I help someone who appears to be having a heat stroke?",
+    "A": "Move them to a cool place, remove excess clothing, and apply cool water to their skin. Call for emergency services immediately and provide water if they are conscious."
+  },
+  {
+    "Q": "What is the proper method for administering CPR?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "When is the appropriate time to use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What are the steps for using an AED on a child?",
+    "A": "Yes, but make sure to use pediatric pads if available. If not, adult pads can be used by placing one on the chest and one on the back for children under 8 years old."
+  },
+  {
+    "Q": "What if the victim is conscious and breathing but collapses again after using the AED?",
+    "A": "If the victim collapses again, turn the AED back on (if necessary) and follow its prompts. Reapply the pads if needed and perform CPR if instructed."
+  },
+  {
+    "Q": "What do I do if someone is choking and can't breathe?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "How do I know if I should use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "How do I use tweezers?",
+    "A": "Sterilize the tweezers before use, then carefully grip and remove the foreign object without pressing too deeply into the skin."
+  },
+  {
+    "Q": "How do I treat a person with a broken bone?",
+    "A": "Keep the injured area still and support it with a splint or sling. Apply ice to reduce swelling, but avoid moving the person unnecessarily."
+  },
+  {
+    "Q": "How do I stop someone from bleeding severely?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "How do I help someone with a severe leg cramp?",
+    "A": "Gently stretch the muscle and provide hydration. Seek medical help if it does not resolve quickly."
+  },
+  {
+    "Q": "How can I assist someone who is experiencing a mental health crisis?",
+    "A": "Stay calm, listen to them, and avoid judgment. Encourage them to talk and seek professional help if needed."
+  },
+  {
+    "Q": "How do I recognize the symptoms of a heat stroke?",
+    "A": "Symptoms of heat stroke include confusion, loss of consciousness, nausea, and a body temperature above 103\u00b0F. Call emergency services immediately and try to cool the person down by moving them to a cooler environment."
+  },
+  {
+    "Q": "How do I perform CPR on someone?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "What actions should I take if the AED fails?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "What should I do if the AED says the pads are disconnected during use?",
+    "A": "Check the connections between the pads and the AED. Reattach them if necessary, and follow the AED\u2019s instructions before continuing."
+  },
+  {
+    "Q": "What is the correct way to give chest compressions during CPR?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "Do I need a prescription to purchase an AED?",
+    "A": "In many countries, you do not need a prescription to purchase an AED. However, some regions may have regulations requiring a prescription for medical oversight or training purposes."
+  },
+  {
+    "Q": "How do I know when it\u2019s safe to touch the victim again after using the AED?",
+    "A": "The AED will prompt you when it\u2019s safe to touch the victim. Only touch the victim when the AED instructs you to perform CPR or when no shock is advised."
+  },
+  {
+    "Q": "How do I know if someone needs an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "How do I use a fire extinguisher?",
+    "A": "Remember the PASS method: Pull the pin, Aim the nozzle at the base of the fire, Squeeze the handle, and Sweep the nozzle from side to side."
+  },
+  {
+    "Q": "What precautions should I take when using a glucometer?",
+    "A": "Ensure the device and test strips are calibrated and not expired. Clean the lancet device between uses to maintain hygiene."
+  },
+  {
+    "Q": "Can I still perform CPR if the AED fails?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "How tight should I wrap an elastic bandage?",
+    "A": "Wrap it snugly but not so tight that it restricts circulation. Check for numbness or a bluish color in the fingers or toes."
+  },
+  {
+    "Q": "How can I assist a person who\u2019s been exposed to smoke?",
+    "A": "Move them to fresh air immediately, loosen any tight clothing, and encourage them to take deep breaths. If they are having trouble breathing, call for emergency medical help."
+  },
+  {
+    "Q": "What should I do if someone faints while standing in line?",
+    "A": "Help them to the ground gently, lay them flat, and elevate their legs. Ensure they have fresh air and call for medical assistance if they do not regain consciousness quickly."
+  },
+  {
+    "Q": "How do I help someone who appears to be having a heart attack while driving?",
+    "A": "Encourage them to pull over safely, call for emergency help, and assist them in taking any prescribed medication like nitroglycerin if available."
+  },
+  {
+    "Q": "What happens if an AED is used on someone who does not need it?",
+    "A": "AEDs are designed to only deliver a shock if they detect a life-threatening arrhythmia, such as ventricular fibrillation. If a person does not need a shock, the AED will not deliver one, making it safe to use even if there is uncertainty."
+  },
+  {
+    "Q": "What should I do if someone appears to be in shock after an injury?",
+    "A": "Have the person lie down with their legs elevated, keep them warm with a blanket, and call for medical assistance. Monitor their condition while waiting for help."
+  },
+  {
+    "Q": "What do I do if I see someone exhibiting signs of a mental health crisis?",
+    "A": "Approach them calmly and offer support. Notify store personnel or call for professional help."
+  },
+  {
+    "Q": "Can I use the AED if I am the only person present?",
+    "A": "Yes, if you are alone, turn on the AED and follow its prompts while also calling emergency services. The AED will guide you through the process as you prepare the pads and perform CPR."
+  },
+  {
+    "Q": "What should I do if I suspect someone is having a heart attack?",
+    "A": "Call emergency services immediately and have the person sit or lie down in a comfortable position. If they have medication for heart conditions, assist them in taking it."
+  },
+  {
+    "Q": "Can I use an AED on someone without training?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "How do I evacuate if the store is filled with smoke?",
+    "A": "Stay low to the ground to avoid inhaling smoke, and exit the building through the nearest safe emergency exit. Follow evacuation routes and avoid using elevators."
+  },
+  {
+    "Q": "What if the AED prompts 'analyze' but the victim has a pulse?",
+    "A": "If the victim has a pulse, do not deliver a shock. Follow the AED's guidance and monitor the victim's condition until help arrives."
+  },
+  {
+    "Q": "What should I do if a person has a seizure in water?",
+    "A": "Keep their head above water and support them until the seizure ends. Remove them from the water when safe and call for emergency help."
+  },
+  {
+    "Q": "How do I perform CPR while the AED is preparing to analyze the heart rhythm?",
+    "A": "Perform chest compressions at a rate of 100-120 per minute and allow the chest to recoil fully. Stop only when the AED instructs you to pause for rhythm analysis."
+  },
+  {
+    "Q": "What should I do if the tweezers slip while removing debris?",
+    "A": "Stop, sterilize the tweezers again, and try carefully to avoid pushing the debris deeper into the skin."
+  },
+  {
+    "Q": "How should I help someone who is severely dehydrated in the store?",
+    "A": "Move them to a cool area and give them small sips of water. Have them lie down if they feel faint, and call for medical help if their condition does not improve."
+  },
+  {
+    "Q": "What should I do if I see someone having a stroke?",
+    "A": "Look for signs like facial drooping, arm weakness, and speech difficulties. Call emergency services right away and note the time symptoms began."
+  },
+  {
+    "Q": "When should I use a bag valve mask?",
+    "A": "Use it when performing rescue breathing for someone in respiratory arrest or during CPR if trained in its use."
+  },
+  {
+    "Q": "What actions should I take during a flood in the store?",
+    "A": "Move to higher ground immediately and avoid walking through standing water, which could be contaminated or electrically charged. Follow store evacuation routes."
+  },
+  {
+    "Q": "Should I carry scissors in my first aid kit?",
+    "A": "Yes, having scissors in your kit is essential for cutting dressings, gauze, or clothing in emergencies."
+  },
+  {
+    "Q": "What should I do if someone has a severe allergic reaction to a food item?",
+    "A": "Call emergency services, and if they have an EpiPen, assist them in using it. Keep them calm and monitor their symptoms."
+  },
+  {
+    "Q": "How do I handle a person having a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "How do I help someone who fainted?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "How do I respond if the AED isn't working properly?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "What should I do if the AED does not turn on?",
+    "A": "Check if the battery is properly installed. If it still doesn\u2019t work, continue CPR and call for emergency services."
+  },
+  {
+    "Q": "What is the best way to fold a triangle bandage for use as a sling?",
+    "A": "Fold it into a triangle, place the injured arm in the center, and tie the ends securely around the neck to support the arm."
+  },
+  {
+    "Q": "How do I handle someone who is dizzy and about to faint?",
+    "A": "Help them sit or lie down with their legs elevated. Ensure they have fresh air and give them water if possible. Call for medical help if they do not feel better quickly."
+  },
+  {
+    "Q": "What should I do if someone is experiencing severe anxiety?",
+    "A": "Reassure them and encourage deep, slow breaths. Help them find a quiet place to relax."
+  },
+  {
+    "Q": "What is the correct way to use an AED?",
+    "A": "Open the AED and follow the audio or visual prompts. Ensure the person is dry, apply the pads to their bare chest, and let the AED analyze the heart rhythm. Press the shock button if instructed."
+  },
+  {
+    "Q": "What precautions should I take when using disposable gloves?",
+    "A": "Dispose of them immediately after use and avoid reusing. Use latex-free gloves if you or the patient has a latex allergy."
+  },
+  {
+    "Q": "Is it safe to use an AED if the victim is wet?",
+    "A": "If possible, move the victim to a dry area and wipe their chest before applying the AED pads."
+  },
+  {
+    "Q": "What happens if the AED doesn't work as expected?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "What if I don\u2019t have sterile gauze pads available?",
+    "A": "Use a clean cloth as a temporary measure, but ensure it\u2019s as hygienic as possible to avoid introducing bacteria."
+  },
+  {
+    "Q": "Why are AEDs placed in public locations?",
+    "A": "AEDs are placed in public locations to provide immediate access during cardiac emergencies. Sudden cardiac arrest can happen anywhere, and having an AED nearby can save precious time and increase the chances of survival before medical professionals arrive."
+  },
+  {
+    "Q": "What should I do if someone is having an allergic reaction?",
+    "A": "If they have an EpiPen, assist them in using it. Call emergency services immediately and monitor their condition."
+  },
+  {
+    "Q": "Can an untrained person use an AED in an emergency?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "How do I help someone who was electrocuted?",
+    "A": "Do not touch the person directly. Turn off the power source if possible or use a non-conductive object to move them away. Call for emergency services immediately."
+  },
+  {
+    "Q": "How can I help someone who is choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "What should I do if a person is struck by lightning?",
+    "A": "Call emergency services immediately. If they are unconscious and not breathing, start CPR right away. Move them to a safe location away from further danger."
+  },
+  {
+    "Q": "How do I know when the AED process is complete?",
+    "A": "The AED process is complete when emergency services arrive and take over, or the victim shows clear signs of life, such as breathing or moving. Continue to follow AED instructions until then."
+  },
+  {
+    "Q": "What should I do if the fire alarm goes off while I\u2019m on a higher floor?",
+    "A": "Use the stairs to exit the building, never the elevator. Follow the emergency exit signs, and remain calm while evacuating."
+  },
+  {
+    "Q": "Can antibiotic ointment be used on scrapes with dirt in them?",
+    "A": "Clean the wound thoroughly with water and antiseptic wipes before applying antibiotic ointment to avoid trapping dirt."
+  },
+  {
+    "Q": "What should I do if someone is having an allergic reaction?",
+    "A": "If they have an epinephrine auto-injector (EpiPen), assist them in using it. Call emergency services immediately if their symptoms worsen or they have trouble breathing."
+  },
+  {
+    "Q": "What if the AED pads are placed incorrectly?",
+    "A": "If you realize the AED pads are placed incorrectly, quickly reposition them as per the AED\u2019s instructions. Ensure proper placement before the AED continues its analysis."
+  },
+  {
+    "Q": "What steps should I follow if the AED fails during use?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "How do I handle the AED if it is a fully automated version?",
+    "A": "A fully automated AED will analyze the heart rhythm and automatically deliver a shock if needed. Ensure no one is touching the victim during the analysis and wait for the AED to guide you through the next steps."
+  },
+  {
+    "Q": "How do I use tweezers to remove a tick?",
+    "A": "Grip the tick close to the skin\u2019s surface with the tweezers, pull upward steadily, and clean the bite area with antiseptic."
+  },
+  {
+    "Q": "How do I help someone who has been electrocuted?",
+    "A": "Do not touch them if they are still in contact with the electrical source. Call for emergency assistance immediately."
+  },
+  {
+    "Q": "How can I assist someone who is experiencing a mental health crisis?",
+    "A": "Stay calm, listen to them, and avoid judgment. Encourage them to talk and seek professional help if needed."
+  },
+  {
+    "Q": "How can I help someone who has fainted?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "What should I do if I suspect someone has a concussion?",
+    "A": "Keep them still and observe their symptoms. Seek medical attention, especially if they have persistent headache or confusion."
+  },
+  {
+    "Q": "How do I manage a sprained ankle?",
+    "A": "Rest, ice, compress, and elevate the ankle. Seek medical attention if swelling persists or if there is severe pain."
+  },
+  {
+    "Q": "What should I do if an elastic bandage feels too tight?",
+    "A": "Loosen the bandage immediately if you notice numbness, tingling, or discoloration of the affected limb."
+  },
+  {
+    "Q": "What should I do if I hear gunshots in the store?",
+    "A": "Run if you can do so safely, hide if running is not an option, and as a last resort, prepare to defend yourself. Call emergency services as soon as it\u2019s safe to do so."
+  },
+  {
+    "Q": "How do I use a glucometer?",
+    "A": "Insert a test strip, use the lancet to prick the finger, and place a drop of blood on the strip. Wait for the device to display the reading."
+  },
+  {
+    "Q": "What should I do if there\u2019s a flood in the building?",
+    "A": "Move to higher ground and avoid walking through standing water, which may be contaminated or electrically charged. Follow evacuation routes and await further instructions from emergency personnel."
+  },
+  {
+    "Q": "What is a portable suction device?",
+    "A": "A portable suction device is used to clear a person's airway by removing mucus, blood, or other fluids."
+  },
+  {
+    "Q": "Does using an AED guarantee the victim's survival?",
+    "A": "While an AED significantly increases the chances of survival, it does not guarantee it. Early defibrillation combined with CPR improves survival rates, but the outcome depends on factors such as the time elapsed since the cardiac arrest and the victim\u2019s overall health."
+  },
+  {
+    "Q": "What if the wound stings after using an antiseptic wipe?",
+    "A": "Mild stinging is normal, but if it causes severe discomfort or an allergic reaction, rinse the wound with clean water and consult a healthcare provider."
+  },
+  {
+    "Q": "What if the AED prompts me to replace the pads during use?",
+    "A": "If the AED indicates that the pads need replacement, do so quickly while continuing CPR. Follow the AED's instructions for reconnecting and placing the new pads."
+  },
+  {
+    "Q": "What if the victim has chest piercings?",
+    "A": "Place the pads at least 1 inch away from any piercings to avoid interference, ensuring the pads have good skin contact."
+  },
+  {
+    "Q": "How do I use a fire extinguisher?",
+    "A": "Remember the PASS method: Pull the pin, Aim the nozzle at the base of the fire, Squeeze the handle, and Sweep the nozzle from side to side."
+  },
+  {
+    "Q": "What do I do if I see someone trying to harm themselves?",
+    "A": "Do not confront them directly. Call for help from store personnel or law enforcement and keep others at a safe distance."
+  },
+  {
+    "Q": "What should I do if I get injured by falling debris during an earthquake?",
+    "A": "Seek cover under sturdy furniture or near a wall. Protect your head and neck, and stay in place until the shaking stops. Afterward, call for medical help if needed."
+  },
+  {
+    "Q": "Can I use antiseptic wipes on sensitive areas like the eyes or mouth?",
+    "A": "No, antiseptic wipes are not safe for use on sensitive areas. Rinse these areas with clean water if needed."
+  },
+  {
+    "Q": "What is the proper way to give CPR?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "Is training required to use an AED?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "When should I use an antiseptic wipe?",
+    "A": "Use it before dressing a wound or after an injury to clean the area and reduce the risk of infection."
+  },
+  {
+    "Q": "What should I do if someone is experiencing severe chest pain?",
+    "A": "Call emergency services immediately. Have the person sit down and keep them calm while waiting for help."
+  },
+  {
+    "Q": "How do I help someone who has been sprayed with chemicals?",
+    "A": "Move them away from the chemical source and rinse the affected area with water for at least 15 minutes. Avoid touching the chemicals yourself and call for medical assistance."
+  },
+  {
+    "Q": "Someone is choking, what should I do?",
+    "A": "If they can\u2019t breathe, perform the Heimlich maneuver: stand behind the person, wrap your arms around their waist, and give firm, upward abdominal thrusts just above their belly button."
+  },
+  {
+    "Q": "What should I do in case of a fire?",
+    "A": "Evacuate immediately by following the emergency exit signs. Do not use elevators. If possible, assist others, but prioritize your safety."
+  },
+  {
+    "Q": "When should I use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What should I do if there is a power outage while I\u2019m using the store\u2019s elevator?",
+    "A": "Stay calm and do not attempt to exit the elevator on your own. Use the emergency button to alert store personnel, and wait for professional assistance."
+  },
+  {
+    "Q": "How do I use an instant cold pack?",
+    "A": "Squeeze the pack to activate it, shake to distribute the cold, and apply it to the affected area for 15-20 minutes, using a cloth barrier if needed."
+  },
+  {
+    "Q": "What should I do if there is a power outage while I'm shopping?",
+    "A": "Remain calm, use your phone\u2019s flashlight to navigate if needed, and follow emergency exit signs. Wait for instructions from store personnel."
+  },
+  {
+    "Q": "How do I use a pulse oximeter?",
+    "A": "Place the device on the person's finger, ensuring their hand is steady and warm. Wait for the reading, which usually takes a few seconds."
+  },
+  {
+    "Q": "What should I do if I suspect someone is under the influence of drugs or alcohol?",
+    "A": "Keep a safe distance and alert store security or management. Avoid confrontation and ensure the person does not harm themselves or others."
+  },
+  {
+    "Q": "What should I do if someone has a seizure in the parking lot?",
+    "A": "Ensure the person is safe by moving objects away from them. Do not restrain them or put anything in their mouth. Once the seizure ends, place them on their side and call for medical help."
+  },
+  {
+    "Q": "What is the first thing to do when using an AED?",
+    "A": "Turn on the AED by pressing the power button and follow the voice instructions provided by the device."
+  },
+  {
+    "Q": "When should I use an adhesive bandage?",
+    "A": "Use it for minor cuts, scrapes, or blisters to protect the wound and keep it clean."
+  },
+  {
+    "Q": "Can I use an AED on someone without training?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "What should I do if someone shows signs of a stroke?",
+    "A": "Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services immediately if you notice these symptoms."
+  },
+  {
+    "Q": "How do I help someone who fainted?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "How do I help someone who has a burn from hot liquid?",
+    "A": "Cool the burn with cool (not cold) water for 10-20 minutes. Cover the burn with a clean, non-stick dressing. Avoid applying ice or ointments and seek medical help if needed."
+  },
+  {
+    "Q": "What do I do if someone collapses during an escalator accident?",
+    "A": "Stop the escalator using the emergency stop button, if available. Move the person to a safe area and call for emergency medical help if they are injured or unconscious."
+  },
+  {
+    "Q": "Should I remove the victim's dentures before using the AED?",
+    "A": "No, you do not need to remove dentures when using an AED, as they will not interfere with the device\u2019s function."
+  },
+  {
+    "Q": "What precautions should I take when using an elastic bandage?",
+    "A": "Avoid wrapping too tightly to prevent cutting off circulation. Check for numbness or discoloration in the affected area."
+  },
+  {
+    "Q": "Is it safe to use an AED on a child?",
+    "A": "Yes, AEDs can be used on children. Most AEDs have pediatric pads or settings for use on children under 8 years old or those weighing less than 55 pounds (25 kg). If pediatric pads are not available, adult pads can be used, but placement may differ."
+  },
+  {
+    "Q": "What happens if the AED doesn't work as expected?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "What should I do if there is a power outage while using the store\u2019s elevator?",
+    "A": "Stay calm and do not attempt to exit the elevator on your own. Use the emergency button to alert store personnel, and wait for professional assistance."
+  },
+  {
+    "Q": "How do I use an AED on a child?",
+    "A": "Yes, but make sure to use pediatric pads if available. If not, adult pads can be used by placing one on the chest and one on the back for children under 8 years old."
+  },
+  {
+    "Q": "Can an AED be used on children?",
+    "A": "Yes, but make sure to use pediatric pads if available. If not, adult pads can be used by placing one on the chest and one on the back for children under 8 years old."
+  },
+  {
+    "Q": "What do I do if I see someone having a panic attack?",
+    "A": "Reassure them and encourage slow, deep breathing. Stay with them until they feel better."
+  },
+  {
+    "Q": "What should I do if someone has a seizure?",
+    "A": "Protect them from injury, keep the area clear, and do not restrain them. Call for medical help after the seizure ends."
+  },
+  {
+    "Q": "How do I use an AED on a child?",
+    "A": "Yes, but make sure to use pediatric pads if available. If not, adult pads can be used by placing one on the chest and one on the back for children under 8 years old."
+  },
+  {
+    "Q": "What do I do if the sterile gauze pad sticks to the wound?",
+    "A": "Soak the gauze with sterile saline or water to loosen it gently, then remove it without causing pain or damage."
+  },
+  {
+    "Q": "How should I prepare the area around the victim when using an AED?",
+    "A": "Ensure the area is clear and safe, remove any metal objects, and make sure no one is touching the victim when the shock is delivered."
+  },
+  {
+    "Q": "How often should I change an adhesive bandage?",
+    "A": "Change it daily or whenever it becomes wet or dirty to ensure the wound stays clean and dry."
+  },
+  {
+    "Q": "What should I do in case of a fire?",
+    "A": "Evacuate immediately by following the emergency exit signs. Do not use elevators. If possible, assist others, but prioritize your safety."
+  },
+  {
+    "Q": "Can I use an AED if the victim is wearing jewelry?",
+    "A": "Yes, but make sure the AED pads are not placed directly over any metal jewelry."
+  },
+  {
+    "Q": "What should I do if there's a gas leak?",
+    "A": "Evacuate the area immediately without using electrical devices, including lights and phones. Call emergency services once you're in a safe location."
+  },
+  {
+    "Q": "What should I do if the AED pads overlap on a small child or infant?",
+    "A": "Place one pad on the center of the chest and the other on the back between the shoulder blades."
+  },
+  {
+    "Q": "What should I do if I see a customer having a seizure?",
+    "A": "Clear the area around them, protect their head, and do not restrain them. Call for medical help once the seizure is over."
+  },
+  {
+    "Q": "What do I do if I see someone being assaulted in the store?",
+    "A": "Do not intervene directly. Move to a safe location and call store security or law enforcement immediately. Provide as much detail as possible about the situation."
+  },
+  {
+    "Q": "What should I do in case of a stroke?",
+    "A": "Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services immediately if you notice these symptoms."
+  },
+  {
+    "Q": "What should I do if I find a suspicious package?",
+    "A": "Do not touch or move the package. Evacuate the area immediately and report the package to store personnel or call emergency services."
+  },
+  {
+    "Q": "What should I do if I find someone unconscious in a public space?",
+    "A": "Check for breathing and pulse. If they are not breathing, call emergency services and start CPR."
+  },
+  {
+    "Q": "What is the best way to clean a reusable triangle bandage?",
+    "A": "Hand wash it with mild soap and warm water, then air dry it completely before storing or reusing."
+  },
+  {
+    "Q": "What should I do if someone has a severe allergic reaction to a food item?",
+    "A": "Call emergency services, and if they have an EpiPen, assist them in using it. Keep them calm and monitor their symptoms."
+  },
+  {
+    "Q": "Is it safe to use an AED if the victim has a tattoo on their chest?",
+    "A": "Yes, you can use an AED on someone with tattoos. Just ensure that the pads are placed as per the instructions, avoiding any areas where the ink might interfere with the pad's adhesive."
+  },
+  {
+    "Q": "What if the AED indicates a 'check pads' error?",
+    "A": "Ensure the pads are firmly attached to the chest and that the connectors are properly plugged into the AED. Reapply the pads if necessary."
+  },
+  {
+    "Q": "How do I control severe bleeding?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "What should I do if I see a fire start in the store?",
+    "A": "Alert store personnel immediately, activate the fire alarm, and evacuate the building calmly. Use the nearest emergency exit and avoid using elevators."
+  },
+  {
+    "Q": "How do I treat a broken bone?",
+    "A": "Keep the injured area still and support it with a splint or sling. Apply ice to reduce swelling, but avoid moving the person unnecessarily."
+  },
+  {
+    "Q": "How can I assist a person who is choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "How do I handle a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "What do I do if someone burns themselves on hot metal?",
+    "A": "Cool the burn with cool (not cold) water for 10-20 minutes, cover it with a clean, non-stick dressing, and seek medical attention if severe."
+  },
+  {
+    "Q": "How do I help someone who is experiencing severe confusion?",
+    "A": "Stay calm and reassure them. Call for medical assistance to evaluate their condition."
+  },
+  {
+    "Q": "What should I do if an antiseptic wipe dries out before use?",
+    "A": "If the wipe is dry, it may not be effective. Use a fresh wipe or another antiseptic solution."
+  },
+  {
+    "Q": "How can I help someone having a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "What should I do if there\u2019s a gas leak?",
+    "A": "Evacuate the area immediately, avoid using electrical devices, and call emergency services from a safe location."
+  },
+  {
+    "Q": "What should I do if I find someone unresponsive but they are breathing?",
+    "A": "Call for emergency assistance immediately. Place the person in the recovery position and monitor their condition while waiting for help."
+  },
+  {
+    "Q": "What do I do if a person is trapped under debris after an earthquake?",
+    "A": "Call emergency services immediately. Do not attempt to move heavy debris by yourself unless absolutely necessary. Stay with the person and offer reassurance while waiting for professional help."
+  },
+  {
+    "Q": "What should I do if the AED stops working?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "Can I use an adhesive bandage on wet skin?",
+    "A": "No, adhesive bandages don\u2019t stick well to wet skin. Dry the area thoroughly before applying the bandage."
+  },
+  {
+    "Q": "What should I do if the adhesive bandage doesn\u2019t stick well?",
+    "A": "Ensure the skin is clean and dry before applying. If it still doesn\u2019t stick, use medical tape to secure it."
+  },
+  {
+    "Q": "What steps should I take if a person faints?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "What should I do if the AED pads are too large for the person?",
+    "A": "For infants or small children, place one pad on the center of the chest and the other on the back between the shoulder blades."
+  },
+  {
+    "Q": "What if I\u2019m allergic to the adhesive on a bandage?",
+    "A": "If you have a reaction like redness or itching, use hypoallergenic bandages or cover the area with sterile gauze and tape."
+  },
+  {
+    "Q": "What should I do if someone is experiencing severe chest pain?",
+    "A": "Call emergency services right away. Have them sit down and rest while you monitor their symptoms."
+  },
+  {
+    "Q": "What should I do if there is a panic in the store due to a crowd?",
+    "A": "Move calmly toward the nearest exit and avoid pushing or running. Follow store personnel instructions, and if you see anyone injured, notify security or emergency services."
+  },
+  {
+    "Q": "What do I do after a person has a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "How do I help someone who is unconscious but breathing?",
+    "A": "Place the person in the recovery position to keep their airway clear. Monitor their breathing and wait for emergency services to arrive."
+  },
+  {
+    "Q": "What if the AED prompts indicate a rhythm analysis delay?",
+    "A": "Remain calm and continue CPR until the AED indicates that the rhythm analysis is complete. Follow its prompts afterward."
+  },
+  {
+    "Q": "How should I react if I witness a fight between customers?",
+    "A": "Avoid getting involved and immediately notify store security or staff. Call emergency services if anyone is seriously injured."
+  },
+  {
+    "Q": "How can I help if I see someone who is choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by standing behind them, placing your arms around their waist, and giving upward thrusts above their belly button."
+  },
+  {
+    "Q": "What should I do if someone is stuck in an escalator?",
+    "A": "Use the emergency stop button on the escalator if possible and notify store personnel immediately. Keep the person calm and ensure they are safe while waiting for help."
+  },
+  {
+    "Q": "Should I remove the victim\u2019s bra before applying AED pads?",
+    "A": "Yes, to ensure the pads make proper contact with the skin. If the victim is a woman, remove or cut away the bra and any underwire that may interfere with pad placement."
+  },
+  {
+    "Q": "Where are AEDs commonly found?",
+    "A": "AEDs are commonly found in public places such as airports, schools, shopping malls, gyms, offices, and sports arenas. They are strategically placed to be easily accessible in case of emergencies."
+  },
+  {
+    "Q": "What should I do if someone is bleeding heavily?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "What do I do if someone is trapped under a fallen shelf?",
+    "A": "Call emergency services immediately and avoid trying to lift heavy objects by yourself. Provide reassurance to the person and keep them still until help arrives."
+  },
+  {
+    "Q": "How do I assist someone who is choking on food?",
+    "A": "Encourage them to cough forcefully. If they can't breathe, perform abdominal thrusts or back blows until the obstruction is cleared."
+  },
+  {
+    "Q": "What if I don't know how to use an AED?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "What do I do if a customer is verbally threatening others in the store?",
+    "A": "Avoid confrontation and notify store security or management immediately. Allow store personnel to handle the situation and stay safe."
+  },
+  {
+    "Q": "What is an elastic bandage?",
+    "A": "An elastic bandage is a stretchy material used to wrap injuries to provide support, reduce swelling, or secure dressings."
+  },
+  {
+    "Q": "What do I do if someone is threatening violence in the store?",
+    "A": "Find a safe place to hide or exit the building if possible. Notify store security or call law enforcement immediately. Do not confront the individual."
+  },
+  {
+    "Q": "What should I do if a child starts choking on food?",
+    "A": "For children over one year old, perform back blows followed by abdominal thrusts. If the object is not dislodged, call emergency services and continue until help arrives."
+  },
+  {
+    "Q": "What should I do if someone is stung by a bee and is having an allergic reaction?",
+    "A": "If they have an epinephrine auto-injector (EpiPen), help them use it immediately. Call emergency services if symptoms worsen or if they have difficulty breathing."
+  },
+  {
+    "Q": "Is it safe to use an AED if the victim is on an incline or stairs?",
+    "A": "Yes, as long as the AED pads are properly applied and the area is safe for both the rescuer and the victim."
+  },
+  {
+    "Q": "How do I assist someone who appears to be experiencing heat stroke?",
+    "A": "Move them to a cool place, remove excess clothing, and apply cool water to their skin. Call for emergency services immediately and provide water if they are conscious."
+  },
+  {
+    "Q": "How can I store antibiotic ointment safely?",
+    "A": "Store it in a cool, dry place away from direct sunlight and ensure the lid is tightly closed after use."
+  },
+  {
+    "Q": "What do I do if I see a fire in the store?",
+    "A": "Activate the fire alarm and alert store personnel. Evacuate the building using the nearest exit."
+  },
+  {
+    "Q": "What should I do during an earthquake?",
+    "A": "Stay inside, move away from windows, and take cover under sturdy furniture. Hold on until the shaking stops. If outside, move away from buildings and power lines."
+  },
+  {
+    "Q": "What should I do if someone faints while standing in line?",
+    "A": "Help them to the ground gently, lay them flat, and elevate their legs. Ensure they have fresh air and call for medical assistance if they do not regain consciousness quickly."
+  },
+  {
+    "Q": "In what situations should I use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "How do I assist someone with a burn from hot liquid?",
+    "A": "Cool the burn with cool (not cold) water for 10-20 minutes. Cover the burn with a clean, non-stick dressing. Avoid applying ice or ointments and seek medical help if needed."
+  },
+  {
+    "Q": "What should I do if someone faints?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "Can an AED be used on children?",
+    "A": "Yes, but make sure to use pediatric pads if available. If not, adult pads can be used by placing one on the chest and one on the back for children under 8 years old."
+  },
+  {
+    "Q": "How should I use a fire extinguisher in an emergency?",
+    "A": "Remember the PASS method: Pull the pin, Aim the nozzle at the base of the fire, Squeeze the handle, and Sweep the nozzle from side to side."
+  },
+  {
+    "Q": "Can I use an AED on a child?",
+    "A": "Yes, you can use an AED on a child. Use pediatric pads if available; if not, adult pads can be used, but place one pad on the chest and the other on the back."
+  },
+  {
+    "Q": "When should I use a pulse oximeter?",
+    "A": "Use it to monitor oxygen levels in cases of breathing difficulties, suspected COVID-19, or during recovery from respiratory conditions."
+  },
+  {
+    "Q": "How do I respond if the AED isn't working properly?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "Can I use an AED without formal training?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "Should I continue using the AED if emergency services arrive?",
+    "A": "Continue following the AED\u2019s instructions and performing CPR until emergency medical personnel take over. Inform them of the number of shocks delivered and the AED\u2019s prompts."
+  },
+  {
+    "Q": "What should I do if someone is injured in a car accident?",
+    "A": "Ensure your own safety first. Call emergency services immediately. If the person is conscious, try to keep them calm and still. Do not move them unless there is a fire or immediate danger."
+  },
+  {
+    "Q": "What should I do if a person has a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "Can I use regular household scissors instead of medical scissors?",
+    "A": "It\u2019s better to use medical scissors, as they\u2019re designed for precision and safety in cutting bandages and dressings."
+  },
+  {
+    "Q": "How do I handle a person having a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "Can an AED be used on a person with chest hair?",
+    "A": "If the chest hair is excessive and prevents the pads from sticking, shave the area using a razor from the AED kit or press down firmly when applying the pads."
+  },
+  {
+    "Q": "What should I do if someone collapses in a crowded area?",
+    "A": "Ensure they have enough air by clearing the area around them. Check for breathing and call for emergency help immediately."
+  },
+  {
+    "Q": "Can I still perform CPR if the AED fails?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "What should I do if the AED indicates a 'low battery' warning during use?",
+    "A": "If the AED still has power, continue following the prompts and use the device as long as possible. If the battery fails completely, continue CPR until professional help arrives."
+  },
+  {
+    "Q": "What steps should I take if I see someone suffering from hypothermia in the store?",
+    "A": "Move them to a warmer area, remove any wet clothing, and wrap them in blankets or dry clothes. Call for emergency assistance and provide warm drinks if they are conscious."
+  },
+  {
+    "Q": "What if a triangle bandage gets dirty during use?",
+    "A": "Replace it with a clean one immediately to prevent infection. Wash reusable bandages if they are made of fabric."
+  },
+  {
+    "Q": "What actions should I take if someone is having a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "Can you explain how to give CPR properly?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "How can I assist someone with severe nausea?",
+    "A": "Help them sit in a comfortable position and encourage them to breathe deeply. Offer water if they can tolerate it."
+  },
+  {
+    "Q": "How does an AED work?",
+    "A": "An AED works by detecting irregular heart rhythms, such as ventricular fibrillation or tachycardia, and delivering an electrical shock to the heart if it detects these life-threatening arrhythmias. The shock can restore the heart's normal rhythm."
+  },
+  {
+    "Q": "What should I do if a person is bleeding heavily?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "What if someone is having a diabetic emergency but has no glucose?",
+    "A": "If they are conscious, offer them juice, candy, or any sugary food or drink to raise their blood sugar. Call for medical assistance if they do not improve within 10 minutes or become unresponsive."
+  },
+  {
+    "Q": "What should I do for a heavy bleeding injury?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "Can antibiotic ointment be used on burns?",
+    "A": "Yes, it can be applied to minor burns to prevent infection. Avoid using it on large or severe burns and seek medical attention."
+  },
+  {
+    "Q": "What should I do if someone has a seizure?",
+    "A": "Protect them from injury, keep the area clear, and do not restrain them. Call for medical help after the seizure ends."
+  },
+  {
+    "Q": "What should I do if I see someone using drugs in the store?",
+    "A": "Do not confront them directly. Notify store security or law enforcement immediately."
+  },
+  {
+    "Q": "How can I treat a minor burn?",
+    "A": "Cool the burn with cool (not cold) water for 10-20 minutes. Cover the burn with a clean, non-stick dressing. Do not apply ice, butter, or any ointments."
+  },
+  {
+    "Q": "What should I do if an AED stops working?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "What precautions should I take when using a triangle bandage?",
+    "A": "Ensure it is tied securely but not too tightly. Avoid using dirty or damaged bandages."
+  },
+  {
+    "Q": "What should I do if someone is experiencing severe chest pain?",
+    "A": "Call emergency services immediately. Have the person sit down and keep them calm while waiting for help."
+  },
+  {
+    "Q": "What should I do if I see a customer acting aggressively?",
+    "A": "Avoid confrontation and notify store security or management. Ensure the safety of others in the area."
+  },
+  {
+    "Q": "What does it mean when the AED says 'no shock advised'?",
+    "A": "Continue performing CPR until emergency services arrive or the person shows signs of life. The AED will analyze again and give instructions if needed."
+  },
+  {
+    "Q": "What should I do if someone is drowning?",
+    "A": "If safe to do so, get the person out of the water. Call for emergency help. Start CPR immediately if they are unresponsive and not breathing."
+  },
+  {
+    "Q": "Can I clean the wound with an antiseptic wipe multiple times a day?",
+    "A": "It\u2019s best to use an antiseptic wipe only when initially cleaning the wound. Overuse may irritate the skin."
+  },
+  {
+    "Q": "How do I help someone having a panic attack in the store?",
+    "A": "Encourage them to breathe slowly and deeply. Stay with them, keep calm, and reassure them until they feel better or emergency help arrives."
+  },
+  {
+    "Q": "How do I assist someone with a burn from a chemical substance?",
+    "A": "Rinse the affected area with copious amounts of water for at least 15 minutes. Call for medical help and do not apply any creams or ointments."
+  },
+  {
+    "Q": "How should I handle a customer harassing others in the store?",
+    "A": "Do not engage with the individual. Alert store security or management to handle the situation and ensure the safety of others in the store."
+  },
+  {
+    "Q": "How can I assist someone who is choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "What are the steps to help someone who has fainted?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "What should I do if an adhesive bandage gets wet?",
+    "A": "Replace it with a new, dry bandage to maintain protection and hygiene."
+  },
+  {
+    "Q": "What do I do if someone is poisoned?",
+    "A": "Call emergency services or a poison control center immediately. If possible, provide them with details of the substance the person ingested. Do not make them vomit unless instructed by medical professionals."
+  },
+  {
+    "Q": "What should I do if someone has a deep cut and is bleeding heavily?",
+    "A": "Apply firm pressure to the wound with a clean cloth or bandage. If possible, elevate the injured limb and call for emergency medical assistance."
+  },
+  {
+    "Q": "What should I do if I witness a car accident near the store?",
+    "A": "Call emergency services immediately. If safe, approach the vehicle to check on the occupants but do not move them unless there is a fire or immediate danger."
+  },
+  {
+    "Q": "What should I do if someone is having difficulty speaking?",
+    "A": "Ask them to try and communicate. If they show signs of distress or confusion, call for medical assistance immediately."
+  },
+  {
+    "Q": "What if the scissors feel dull while cutting?",
+    "A": "Dull scissors can cause uneven cuts and may tear the material. Use a sharp, clean pair specifically for medical use."
+  },
+  {
+    "Q": "How do I perform CPR on someone?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "What do I do if someone is exhibiting signs of hypoglycemia?",
+    "A": "If they are conscious, give them sugary food or drink. Call for medical assistance if they do not improve quickly."
+  },
+  {
+    "Q": "What should I do if the AED says 'shock advised'?",
+    "A": "Make sure no one is touching the victim, then press the shock button as instructed by the AED."
+  },
+  {
+    "Q": "How do I know when to stop using the AED?",
+    "A": "Continue using the AED and performing CPR until emergency medical personnel take over or the victim shows clear signs of recovery such as breathing and consciousness."
+  },
+  {
+    "Q": "What should I do if I see someone collapse?",
+    "A": "Check for responsiveness and breathing. If unresponsive and not breathing, call emergency services and start CPR."
+  },
+  {
+    "Q": "Do I need to continue CPR between AED shocks?",
+    "A": "Yes, perform CPR between AED shocks when instructed. This helps maintain circulation until the AED is ready to deliver another shock."
+  },
+  {
+    "Q": "Can antibiotic ointment be used on animal bites?",
+    "A": "Apply antibiotic ointment to superficial scratches, but for deeper wounds or bites, seek medical attention immediately."
+  },
+  {
+    "Q": "How do I activate an instant cold pack?",
+    "A": "Firmly squeeze or strike the pack to break the internal pouch, then shake it to distribute the cold."
+  },
+  {
+    "Q": "What should I do if someone is choking and can't breathe?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "What do I do if someone is trapped under a fallen shelf?",
+    "A": "Call emergency services immediately and avoid trying to lift heavy objects by yourself. Provide reassurance to the person and keep them still until help arrives."
+  },
+  {
+    "Q": "What if I don't know how to use an AED?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "How do I assist someone with a serious burn?",
+    "A": "Cool the burn with running water for at least 10 minutes, cover it with a clean, non-stick dressing, and seek medical help."
+  },
+  {
+    "Q": "Is it safe to use an AED on a child?",
+    "A": "Yes, but make sure to use pediatric pads if available. If not, adult pads can be used by placing one on the chest and one on the back for children under 8 years old."
+  },
+  {
+    "Q": "What should I do if someone is bleeding severely?",
+    "A": "Apply firm pressure on the wound with a clean cloth or bandage. If possible, elevate the injured area above the heart while keeping pressure on the wound."
+  },
+  {
+    "Q": "What should I do if I encounter a fire in the store?",
+    "A": "Activate the fire alarm, evacuate the area, and call emergency services from a safe location."
+  },
+  {
+    "Q": "How do I use a sterile gauze pad?",
+    "A": "Open the sterile packaging, place the gauze directly on the wound, and secure it with adhesive tape or an elastic bandage."
+  },
+  {
+    "Q": "How do I help someone who was electrocuted?",
+    "A": "Do not touch the person directly. Turn off the power source if possible or use a non-conductive object to move them away. Call for emergency services immediately."
+  },
+  {
+    "Q": "What is a bag valve mask (BVM)?",
+    "A": "A bag valve mask (BVM) is a hand-held device used to provide ventilation to a person who is not breathing or is breathing inadequately."
+  },
+  {
+    "Q": "What should I do if someone has a seizure in the parking lot?",
+    "A": "Ensure the person is safe by moving objects away from them. Do not restrain them or put anything in their mouth. Once the seizure ends, place them on their side and call for medical help."
+  },
+  {
+    "Q": "How do I help someone with a head injury?",
+    "A": "Keep them still and call for medical assistance. Avoid moving them unless they are in danger."
+  },
+  {
+    "Q": "What should I do if someone ingests a toxic substance in the store?",
+    "A": "Call poison control or emergency services immediately. Try to determine what substance was ingested, but do not induce vomiting unless instructed to do so by medical professionals."
+  },
+  {
+    "Q": "What is antibiotic ointment?",
+    "A": "Antibiotic ointment is a topical medication that helps prevent infection in minor cuts, scrapes, and burns."
+  },
+  {
+    "Q": "How do I assist someone with a burn from a chemical substance?",
+    "A": "Rinse the affected area with copious amounts of water for at least 15 minutes. Call for medical help and do not apply any creams or ointments."
+  },
+  {
+    "Q": "What should I do if there is a suspicious vehicle in the parking lot?",
+    "A": "Notify store security or management immediately. Provide a detailed description of the vehicle and its location, but do not approach it yourself."
+  },
+  {
+    "Q": "What should I do if antiseptic wipes cause a burning sensation?",
+    "A": "Mild stinging is normal, but if discomfort persists, rinse the area with clean water and use a gentler antiseptic."
+  },
+  {
+    "Q": "Can I use an AED without formal training?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "In which situations should I use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What should I do if someone is having a heart attack?",
+    "A": "Stay calm. Call for emergency medical assistance immediately. If an AED is available, use it according to the instructions while waiting for professional help."
+  },
+  {
+    "Q": "What do I do if there is a fight between customers?",
+    "A": "Avoid getting involved and immediately notify store security or staff. Call emergency services if anyone is seriously injured."
+  },
+  {
+    "Q": "What is the difference between an AED and CPR?",
+    "A": "CPR is a manual process of chest compressions and rescue breaths used to maintain blood circulation and oxygen supply. An AED, on the other hand, delivers an electric shock to correct abnormal heart rhythms. Both are essential in cardiac arrest situations and work together to increase survival chances."
+  },
+  {
+    "Q": "What should I do if I see someone using drugs in the store?",
+    "A": "Do not confront them directly. Notify store security or law enforcement immediately."
+  },
+  {
+    "Q": "How can I help if I see someone who is choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by standing behind them, placing your arms around their waist, and giving upward thrusts above their belly button."
+  },
+  {
+    "Q": "How do I decide when to use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What should I do if someone is injured by glass?",
+    "A": "Control the bleeding by applying gentle pressure with a clean cloth. Do not remove any large pieces of glass and seek medical help."
+  },
+  {
+    "Q": "What if I don\u2019t have an instant cold pack during an injury?",
+    "A": "Use a bag of ice or a frozen item wrapped in a cloth as an alternative for cold therapy."
+  },
+  {
+    "Q": "What should I do if a person has a panic attack in a crowded space?",
+    "A": "Escort them to a quieter area, encourage slow breathing, and stay calm while reassuring them. Offer water and wait with them until they feel better or emergency help arrives."
+  },
+  {
+    "Q": "How do I treat a burn injury?",
+    "A": "Cool the burn with cool (not cold) water for 10-20 minutes. Cover the burn with a clean, non-stick dressing. Do not apply ice, butter, or any ointments."
+  },
+  {
+    "Q": "What do I do if the AED has pediatric pads but the victim is an adult?",
+    "A": "Pediatric pads are for children. For an adult victim, use the adult pads provided in the AED kit to ensure the device functions correctly."
+  },
+  {
+    "Q": "How do I control severe bleeding?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "What should I do if someone is choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "What do I do if there is a gas leak in the store?",
+    "A": "Evacuate the area immediately and call emergency services. Do not use any electrical devices or open flames."
+  },
+  {
+    "Q": "What do I do if someone starts to have difficulty breathing in the store?",
+    "A": "Help them sit up and encourage slow, deep breaths. If they have a known medical condition like asthma, assist them in using their inhaler. Call for emergency assistance if needed."
+  },
+  {
+    "Q": "How do I evacuate if the store is filled with smoke?",
+    "A": "Stay low to the ground to avoid inhaling smoke, and exit the building through the nearest safe emergency exit. Follow evacuation routes and avoid using elevators."
+  },
+  {
+    "Q": "What should I do if someone faints?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "Do I need to remove the victim\u2019s clothing before using an AED?",
+    "A": "Yes, you should remove or cut away clothing to expose the chest so you can properly place the AED pads."
+  },
+  {
+    "Q": "What should I do if a person has a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "When is the appropriate time to use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What if someone has difficulty breathing?",
+    "A": "Help them sit in an upright position and encourage them to take slow, deep breaths. If they are asthmatic, assist them in using their inhaler. If their condition worsens, call for emergency medical assistance."
+  },
+  {
+    "Q": "How do I assist someone who falls and cannot get up?",
+    "A": "Do not attempt to move them unless absolutely necessary. Call for medical assistance and stay with them to provide comfort until help arrives."
+  },
+  {
+    "Q": "What should I do if I don't know how to use an AED?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "When is an AED required?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What do I do if a customer collapses suddenly?",
+    "A": "Check if they are breathing and responsive. If they\u2019re not, call for emergency medical help immediately and start CPR if needed."
+  },
+  {
+    "Q": "What should I do if someone is exposed to a chemical?",
+    "A": "Rinse the affected area with water for at least 15 minutes. Remove any contaminated clothing and seek medical help."
+  },
+  {
+    "Q": "What if I smell gas in the store?",
+    "A": "Leave the area immediately and avoid using any electrical devices, including phones and lights. Alert store personnel and call emergency services from a safe location."
+  },
+  {
+    "Q": "What should I do if I see suspicious behavior in the store?",
+    "A": "Report the suspicious behavior to store security or staff immediately, providing as much detail as possible. Avoid confronting the individual directly."
+  },
+  {
+    "Q": "When should I use an epinephrine auto-injector?",
+    "A": "Use it immediately at the onset of anaphylaxis symptoms, such as difficulty breathing, swelling, or hives. Follow up with emergency medical care."
+  },
+  {
+    "Q": "What actions should I take if someone faints?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "Is training required to use an AED?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "How do I assist someone with chest discomfort?",
+    "A": "Have them sit in a comfortable position and call for medical help if symptoms persist or worsen."
+  },
+  {
+    "Q": "What should I do if someone is in cardiac arrest?",
+    "A": "Call emergency services immediately, start chest compressions at a rate of 100-120 per minute, and use an AED if available."
+  },
+  {
+    "Q": "What should I do if the AED is not working?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "How can I help someone having a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "What precautions should I take when using a tourniquet?",
+    "A": "Do not leave the tourniquet on for extended periods as it can cause tissue damage. Only use it for life-threatening bleeding."
+  },
+  {
+    "Q": "What should I do if I see someone collapse?",
+    "A": "Check for responsiveness and breathing. If unresponsive and not breathing, call emergency services and start CPR."
+  },
+  {
+    "Q": "What is an epinephrine auto-injector (EpiPen)?",
+    "A": "An epinephrine auto-injector is a medical device used to deliver a dose of epinephrine to treat severe allergic reactions (anaphylaxis)."
+  },
+  {
+    "Q": "How do I use an elastic bandage?",
+    "A": "Wrap it around the injured area snugly but not too tight, starting from the farthest point from the heart and working upward. Secure the end with clips or tape."
+  },
+  {
+    "Q": "What if the AED doesn't work?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "How can I help someone if they are choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "Can I still perform CPR if the AED fails?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "What is the proper way to give CPR?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "What should I do if I encounter someone who is fainting?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "How do I help someone who is hyperventilating?",
+    "A": "Encourage them to breathe slowly and deeply. You can also have them breathe into a paper bag."
+  },
+  {
+    "Q": "How do I perform the Heimlich maneuver?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "Can I use a sterile gauze pad without a bandage tape?",
+    "A": "Yes, but you will need an elastic bandage or another secure method to keep it in place."
+  },
+  {
+    "Q": "Should I wear gloves while applying antibiotic ointment?",
+    "A": "Yes, wearing disposable gloves or using a clean applicator prevents contamination of the ointment and wound."
+  },
+  {
+    "Q": "What maintenance does an AED require?",
+    "A": "AEDs require regular checks to ensure they are functional. This includes checking the battery status, replacing expired electrode pads, and ensuring the device passes self-checks. Most AEDs have indicators that show if they are ready for use."
+  },
+  {
+    "Q": "What do I do if someone is injured during a demonstration or event?",
+    "A": "Call for medical assistance and ensure the area is safe. Provide comfort to the injured person until help arrives."
+  },
+  {
+    "Q": "What should I do if someone is experiencing severe muscle cramps?",
+    "A": "Help them stretch the affected muscle gently and provide water. Call for medical assistance if it does not improve."
+  },
+  {
+    "Q": "What should I do if I don't know how to use an AED?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "How do I handle a broken bone injury?",
+    "A": "Keep the injured limb immobile. Use a splint or sling if available, and apply ice to reduce swelling. Seek medical help as soon as possible."
+  },
+  {
+    "Q": "What do I do if I see someone collapse due to exhaustion?",
+    "A": "Check for responsiveness and call emergency services. Keep the area safe from further harm."
+  },
+  {
+    "Q": "How do I handle an injured animal?",
+    "A": "Approach with caution and do not touch it unless safe. Call animal control or a veterinarian for assistance."
+  },
+  {
+    "Q": "How do I help someone who has difficulty breathing due to smoke inhalation?",
+    "A": "Move them to an area with fresh air immediately. Loosen any tight clothing and encourage them to take slow, deep breaths. Seek medical help if their breathing does not improve."
+  },
+  {
+    "Q": "How do I help someone with an allergic reaction?",
+    "A": "If they have an epinephrine auto-injector (EpiPen), assist them in using it. Call emergency services immediately if their symptoms worsen or they have trouble breathing."
+  },
+  {
+    "Q": "What should I do if someone has a broken bone?",
+    "A": "Keep the injured area still and support it with a splint or sling. Apply ice to reduce swelling, but avoid moving the person unnecessarily."
+  },
+  {
+    "Q": "What should I do if I see a customer with a weapon?",
+    "A": "Do not approach the person. Alert store security or law enforcement immediately and stay in a safe location until the situation is handled."
+  },
+  {
+    "Q": "What should I do if I see someone collapse in the parking lot?",
+    "A": "Check for responsiveness and breathing. Call emergency services immediately and start CPR if necessary. Keep the area safe from traffic."
+  },
+  {
+    "Q": "What should I do if someone is bitten by an animal inside the store?",
+    "A": "Call for medical help immediately. Keep the person calm and try to immobilize the affected area. If safe, take note of the animal involved."
+  },
+  {
+    "Q": "What do I do if I see someone trying to harm themselves?",
+    "A": "Do not confront them directly. Call for help from store personnel or law enforcement and keep others at a safe distance."
+  },
+  {
+    "Q": "How do I assist someone trapped in an elevator?",
+    "A": "Reassure them and call for emergency assistance. Do not attempt to open the elevator doors yourself. Inform store management to resolve the issue."
+  },
+  {
+    "Q": "What should I do if someone has a nosebleed?",
+    "A": "Have them sit up and lean forward. Pinch the nostrils together for 10 minutes, and seek help if it doesn\u2019t stop."
+  },
+  {
+    "Q": "What should I do if someone is having an allergic reaction?",
+    "A": "If they have an epinephrine auto-injector (EpiPen), assist them in using it. Call emergency services immediately if their symptoms worsen or they have trouble breathing."
+  },
+  {
+    "Q": "How do I assist someone having a heart attack?",
+    "A": "Stay calm. Call for emergency medical assistance immediately. If an AED is available, use it according to the instructions while waiting for professional help."
+  },
+  {
+    "Q": "What are medical scissors?",
+    "A": "Medical scissors are sharp tools designed for cutting bandages, gauze, or clothing during first-aid procedures."
+  },
+  {
+    "Q": "Can an AED be used on an elderly person with fragile skin?",
+    "A": "Yes, but be careful when applying and removing the pads to avoid skin tears. Place the pads gently but ensure they adhere firmly for effective use."
+  },
+  {
+    "Q": "Can I use tweezers to remove ticks?",
+    "A": "Yes, grip the tick close to the skin and pull upward slowly and steadily. Clean the area afterward."
+  },
+  {
+    "Q": "How do I help someone with a severe migraine?",
+    "A": "Help them find a quiet, dark place to rest. Offer them water and advise them to take any prescribed medication."
+  },
+  {
+    "Q": "How do I assist someone who has a deep cut?",
+    "A": "Apply firm pressure with a clean cloth to stop the bleeding. Call for medical help if the bleeding does not stop."
+  },
+  {
+    "Q": "How do I help someone who is drowning?",
+    "A": "If safe to do so, get the person out of the water. Call for emergency help. Start CPR immediately if they are unresponsive and not breathing."
+  },
+  {
+    "Q": "How can I help someone who has fallen and might have a spinal injury?",
+    "A": "Do not move the person unless they are in immediate danger. Call emergency services and keep the person as still as possible. Support their head and neck to prevent movement."
+  },
+  {
+    "Q": "Can an AED be used on a pregnant woman?",
+    "A": "Yes, an AED can be used on a pregnant woman. It is important to follow the device's instructions to provide life-saving care."
+  },
+  {
+    "Q": "How do I help someone with a dislocated joint?",
+    "A": "Keep the joint still and apply ice. Do not attempt to put it back in place. Seek medical attention."
+  },
+  {
+    "Q": "What should I do if I encounter someone who is fainting?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "What should I do if there is a fire and the store exits are blocked?",
+    "A": "Find a safe room, close the door, and seal any cracks to prevent smoke from entering. Signal for help from a window or use a phone to call for emergency assistance."
+  },
+  {
+    "Q": "Can an AED be used in temperatures below freezing?",
+    "A": "Yes, but ensure the AED and pads are not exposed to extreme cold temperatures. If possible, move the victim and AED to a sheltered, warmer environment."
+  },
+  {
+    "Q": "What are the steps for using an AED on a child?",
+    "A": "Yes, but make sure to use pediatric pads if available. If not, adult pads can be used by placing one on the chest and one on the back for children under 8 years old."
+  },
+  {
+    "Q": "How do I know if someone needs an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "How do I assist someone who has a deep cut?",
+    "A": "Apply firm pressure with a clean cloth to stop the bleeding. Call for medical help if the bleeding does not stop."
+  },
+  {
+    "Q": "What is the correct way to give chest compressions during CPR?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "How do I control severe bleeding?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "What should I do after turning on the AED?",
+    "A": "After turning on the AED, expose the victim\u2019s chest and remove any clothing. Make sure the chest area is dry and clear of any obstructions before applying the AED pads."
+  },
+  {
+    "Q": "How do I assist someone who is having a nosebleed?",
+    "A": "Have them sit down, lean forward, and pinch their nostrils together for 10-15 minutes. Seek help if it doesn\u2019t stop."
+  },
+  {
+    "Q": "Is it safe to use an AED on a child?",
+    "A": "Yes, but make sure to use pediatric pads if available. If not, adult pads can be used by placing one on the chest and one on the back for children under 8 years old."
+  },
+  {
+    "Q": "How do I assist someone who falls and cannot get up?",
+    "A": "Do not attempt to move them unless absolutely necessary. Call for medical assistance and stay with them to provide comfort until help arrives."
+  },
+  {
+    "Q": "What should I do if there\u2019s a bomb threat?",
+    "A": "Remain calm, evacuate the area if instructed, and report to authorities without using electronic devices."
+  },
+  {
+    "Q": "What are the steps to treat a broken bone?",
+    "A": "Keep the injured area still and support it with a splint or sling. Apply ice to reduce swelling, but avoid moving the person unnecessarily."
+  },
+  {
+    "Q": "What if the triangle bandage doesn\u2019t stay in place?",
+    "A": "Secure it with safety pins, clips, or knots to keep it from slipping."
+  },
+  {
+    "Q": "What if my wound doesn\u2019t heal after using antibiotic ointment?",
+    "A": "If the wound doesn\u2019t improve after a few days or shows signs of infection, consult a healthcare provider."
+  },
+  {
+    "Q": "What if I see someone being attacked?",
+    "A": "Do not intervene directly. Find a safe location, alert store security or call emergency services, and give them detailed information about the situation."
+  },
+  {
+    "Q": "What should I do if I see someone being harassed?",
+    "A": "Intervene if safe to do so, or alert store security or law enforcement to the situation."
+  },
+  {
+    "Q": "What should I do if someone has a broken bone?",
+    "A": "Keep the injured area still and support it with a splint or sling. Apply ice to reduce swelling, but avoid moving the person unnecessarily."
+  },
+  {
+    "Q": "What do I do if someone is exhibiting signs of hypoglycemia?",
+    "A": "If they are conscious, give them sugary food or drink. Call for medical assistance if they do not improve quickly."
+  },
+  {
+    "Q": "How do I perform CPR on someone?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "How do I treat a person with a broken bone?",
+    "A": "Keep the injured area still and support it with a splint or sling. Apply ice to reduce swelling, but avoid moving the person unnecessarily."
+  },
+  {
+    "Q": "What if the AED battery is low but still functioning during an emergency?",
+    "A": "Continue using the AED as long as it remains functional. If the battery dies completely, proceed with CPR until emergency services arrive."
+  },
+  {
+    "Q": "How do I know if I should use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What should I do if the AED pads are not sticking properly?",
+    "A": "Ensure the chest area is dry and free of hair. If necessary, use the razor provided in the AED kit to shave the area before reapplying the pads."
+  },
+  {
+    "Q": "Can you explain the CPR process?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "How do I perform CPR?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "Is training required to use an AED?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "Can an AED be used on someone who is unconscious but still breathing?",
+    "A": "No, AEDs are only used when a person is unconscious and not breathing. If they are breathing, continue monitoring them and seek emergency help."
+  },
+  {
+    "Q": "How do I safely remove splinters with tweezers?",
+    "A": "Sterilize the tweezers with an antiseptic wipe, then gently grip the splinter and pull it out along its natural direction."
+  },
+  {
+    "Q": "What are the steps to treat a broken bone?",
+    "A": "Keep the injured area still and support it with a splint or sling. Apply ice to reduce swelling, but avoid moving the person unnecessarily."
+  },
+  {
+    "Q": "What should I do if someone has a puncture wound?",
+    "A": "Leave the object in place if it is still embedded and secure it with a clean bandage to stabilize it. Call emergency services immediately."
+  },
+  {
+    "Q": "What are tweezers?",
+    "A": "Tweezers are small tools used to grasp and remove objects such as splinters, debris, or ticks from the skin."
+  },
+  {
+    "Q": "What should I do if a child is found wandering alone in the store?",
+    "A": "Stay with the child and notify store personnel immediately to help locate their parent or guardian."
+  },
+  {
+    "Q": "How do I handle a situation where someone is intoxicated?",
+    "A": "Ensure their safety, keep them calm, and monitor their condition. If they are unconscious or unresponsive, call for medical help."
+  },
+  {
+    "Q": "What if the AED advises no shock?",
+    "A": "If the AED advises no shock, continue performing CPR until the AED re-analyzes the rhythm or emergency medical personnel arrive."
+  },
+  {
+    "Q": "What should I do if I encounter someone having a mental breakdown?",
+    "A": "Stay calm, listen without judgment, and encourage them to seek professional help if needed."
+  },
+  {
+    "Q": "What is the purpose of using an AED?",
+    "A": "An AED (Automated External Defibrillator) is a medical device that can analyze a person's heart rhythm and deliver an electrical shock if needed to help the heart re-establish an effective rhythm."
+  },
+  {
+    "Q": "How do I know if someone needs an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What is the best way to store an instant cold pack?",
+    "A": "Store it in a cool, dry place to ensure its chemical components remain effective when activated."
+  },
+  {
+    "Q": "What do I do if someone is experiencing a severe headache?",
+    "A": "Offer them water and a quiet space to rest. If they have a history of migraines, suggest they use their prescribed medication."
+  },
+  {
+    "Q": "How much antibiotic ointment should I apply?",
+    "A": "A thin layer is sufficient to cover the wound. Using too much may trap moisture and delay healing."
+  },
+  {
+    "Q": "What actions should I take if someone is having a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "What should I do if someone is choking?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "When should I use an elastic bandage?",
+    "A": "Use it for sprains, strains, or to secure dressings on larger wounds."
+  },
+  {
+    "Q": "When should I use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What do I do if I see someone collapse due to exhaustion?",
+    "A": "Check for responsiveness and call emergency services. Keep the area safe from further harm."
+  },
+  {
+    "Q": "What steps should I take if I encounter a person with a broken leg?",
+    "A": "Keep the person still and support the leg with a splint if possible. Call for emergency medical assistance."
+  },
+  {
+    "Q": "What is the correct way to give chest compressions during CPR?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "What if the victim has a pacemaker or implantable defibrillator?",
+    "A": "Place the AED pads at least an inch away from the pacemaker or defibrillator to avoid interference and ensure effective delivery of the shock."
+  },
+  {
+    "Q": "How do I know if the AED is ready for use in an emergency?",
+    "A": "Most AEDs have a status indicator, such as a green light, to show if they are functional. Regular maintenance and checks ensure that the AED remains ready for use."
+  },
+  {
+    "Q": "What is a tourniquet?",
+    "A": "A tourniquet is a medical device used to apply pressure to a limb to stop severe bleeding from an artery."
+  },
+  {
+    "Q": "How do I decide when to use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "Is it safe to use an AED if the victim is lying on a conductive surface like metal or concrete?",
+    "A": "Yes, it is generally safe, but make sure no one is touching the conductive surface when the shock is delivered."
+  },
+  {
+    "Q": "What should I do if I don't know how to use an AED?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "What should I do if someone has a seizure in the store?",
+    "A": "Protect their head from injury, and move objects away from them. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until help arrives."
+  },
+  {
+    "Q": "What actions should I take if someone has a deep cut and is bleeding heavily?",
+    "A": "Apply firm pressure to the wound with a clean cloth or bandage. If possible, elevate the injured limb and call for emergency medical assistance."
+  },
+  {
+    "Q": "What is the best way to stop bleeding fast?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "How do I perform the Heimlich maneuver?",
+    "A": "If they are unable to breathe or speak, perform the Heimlich maneuver by placing your hands around their waist and giving quick, upward thrusts just above the belly button."
+  },
+  {
+    "Q": "How do I use CPR in an emergency situation?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "What do I do if I see someone having a panic attack?",
+    "A": "Reassure them and encourage slow, deep breathing. Stay with them until they feel better."
+  },
+  {
+    "Q": "What should I do if someone has a heart attack in the store?",
+    "A": "Call emergency services immediately. Help the person sit comfortably and encourage them to stay calm. If they have nitroglycerin, assist them in using it."
+  },
+  {
+    "Q": "How do I help a person with a broken leg?",
+    "A": "Keep the injured leg still and avoid moving the person unnecessarily. Apply ice to reduce swelling, and call for emergency medical assistance."
+  },
+  {
+    "Q": "Can I use tweezers to remove a bee stinger?",
+    "A": "No, using tweezers might squeeze more venom into the skin. Instead, scrape the stinger off with a flat edge like a credit card."
+  },
+  {
+    "Q": "What should I do if someone has a foreign object in their eye?",
+    "A": "Do not rub the eye. Flush it gently with water and seek medical assistance if the object doesn\u2019t come out."
+  },
+  {
+    "Q": "What are other uses for a triangle bandage?",
+    "A": "It can be used as a tourniquet, head wrap, or to secure a dressing on a large wound."
+  },
+  {
+    "Q": "What should I do if a person gets electrocuted?",
+    "A": "Do not touch the person directly. Turn off the power source if possible or use a non-conductive object to move them away. Call for emergency services immediately."
+  },
+  {
+    "Q": "What should I do if someone is bitten by a snake?",
+    "A": "Call emergency services right away. Keep the bitten person still and calm to prevent the venom from spreading. Do not apply ice or try to suck out the venom."
+  },
+  {
+    "Q": "How do I secure an elastic bandage without clips?",
+    "A": "Tuck the end of the bandage under the wrapped layers or use medical tape to hold it in place."
+  },
+  {
+    "Q": "What should I do if a person is showing signs of dehydration?",
+    "A": "Encourage them to drink water or electrolyte solutions. If they are unable to drink or their condition worsens, seek medical attention."
+  },
+  {
+    "Q": "When is the appropriate time to use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "Can elastic bandages be washed and reused?",
+    "A": "Yes, most elastic bandages can be hand-washed with mild soap and air-dried for reuse."
+  },
+  {
+    "Q": "What should I do if someone gets hypothermia?",
+    "A": "Move the person to a warm area and remove any wet clothing. Wrap them in blankets or warm clothes and offer warm, non-alcoholic drinks if they are conscious. Seek medical assistance immediately."
+  },
+  {
+    "Q": "What should I do if there\u2019s a gas leak?",
+    "A": "Evacuate the area immediately, avoid using electrical devices, and call emergency services from a safe location."
+  },
+  {
+    "Q": "What should I do if the AED pads are not sticking properly?",
+    "A": "Ensure the chest area is dry and free from hair. If necessary, shave or wipe the area before applying the pads."
+  },
+  {
+    "Q": "How can I assist someone bleeding from a head injury?",
+    "A": "Apply gentle pressure to the wound with a clean cloth, avoiding direct pressure if a skull fracture is suspected. Keep the person still and call for emergency assistance."
+  },
+  {
+    "Q": "What steps should I take if someone faints?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "What if the AED does not advise a shock?",
+    "A": "If the AED does not advise a shock, continue performing CPR as instructed by the AED. The AED will continue to monitor the heart rhythm and may prompt another analysis."
+  },
+  {
+    "Q": "Can a triangle bandage be used as a headband for head injuries?",
+    "A": "Yes, fold it into a long strip and wrap it around the head to secure dressings or control bleeding."
+  },
+  {
+    "Q": "What should I do if I encounter someone who is fainting?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "What should I do if the AED is not working?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "What do I do if a customer is caught in a flash flood in the store?",
+    "A": "Move to higher ground immediately and avoid walking through standing water. Alert store personnel for further instructions."
+  },
+  {
+    "Q": "What if the AED says 'no shock advised'?",
+    "A": "Continue performing CPR until emergency services arrive or the person shows signs of life. The AED will analyze again and give instructions if needed."
+  },
+  {
+    "Q": "How can I assist someone who feels dizzy and is about to faint?",
+    "A": "Help them sit or lie down with their legs elevated. Ensure they have fresh air and give them water if possible. Call for medical help if they do not feel better quickly."
+  },
+  {
+    "Q": "How do I use an epinephrine auto-injector?",
+    "A": "Remove the safety cap, press the injector firmly against the outer thigh, and hold for 5-10 seconds to deliver the medication."
+  },
+  {
+    "Q": "What should I do if a person has a panic attack in a crowded space?",
+    "A": "Escort them to a quieter area, encourage slow breathing, and stay calm while reassuring them. Offer water and wait with them until they feel better or emergency help arrives."
+  },
+  {
+    "Q": "What should I do if someone has a severe allergic reaction but no EpiPen is available?",
+    "A": "Call emergency services immediately. Try to keep the person calm and monitor their breathing. If they have trouble breathing, lie them down and raise their legs to help blood flow to vital organs."
+  },
+  {
+    "Q": "What should I do after delivering a shock with the AED?",
+    "A": "Immediately begin CPR if the AED instructs you to do so. Continue performing CPR for 2 minutes or until the AED prompts you to stop for another analysis."
+  },
+  {
+    "Q": "How do I apply a tourniquet?",
+    "A": "Place it above the wound, tighten until bleeding stops, and note the time of application. Call for emergency help immediately."
+  },
+  {
+    "Q": "How can I help someone who has fainted?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "How do I use the AED?",
+    "A": "Open the AED and follow the audio or visual prompts. Ensure the person is dry, apply the pads to their bare chest, and let the AED analyze the heart rhythm. Press the shock button if instructed."
+  },
+  {
+    "Q": "What should I do if I witness a kidnapping?",
+    "A": "Immediately call the police with a description of the suspect and the victim. Do not attempt to intervene physically but stay in a safe area to observe and provide information."
+  },
+  {
+    "Q": "What steps can I take to help someone severely dehydrated in the store?",
+    "A": "Move them to a cool area and give them small sips of water. Have them lie down if they feel faint, and call for medical help if their condition does not improve."
+  },
+  {
+    "Q": "What are the steps for using an AED on a child?",
+    "A": "Yes, but make sure to use pediatric pads if available. If not, adult pads can be used by placing one on the chest and one on the back for children under 8 years old."
+  },
+  {
+    "Q": "What should I do if someone is having a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "How do I handle an unconscious child when using an AED?",
+    "A": "Ensure the child is on a flat, dry surface. Use pediatric pads if available; place one pad in the center of the chest and the other on the back. If pediatric pads are not available, use adult pads but ensure they do not overlap."
+  },
+  {
+    "Q": "What if the AED gives a \u2018motion detected\u2019 warning?",
+    "A": "Stop any movement around the victim, including chest compressions, to allow the AED to analyze the rhythm properly. Ensure everyone is clear of the victim before continuing."
+  },
+  {
+    "Q": "What should I do if I witness someone having a heart attack in public?",
+    "A": "Call emergency services immediately. If the person is unconscious and not breathing, start CPR. Use an AED if available and follow the instructions provided by the device."
+  },
+  {
+    "Q": "What do I do if I see someone exhibiting signs of a mental health crisis?",
+    "A": "Approach them calmly and offer support. Notify store personnel or call for professional help."
+  },
+  {
+    "Q": "What should I do if someone is having an asthma attack?",
+    "A": "Help them use their inhaler if they have one, and encourage them to breathe slowly. Call for medical assistance if their condition worsens."
+  },
+  {
+    "Q": "What actions should I take if someone faints?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "How do I stop someone from bleeding severely?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "How should I handle an AED if the battery appears low but there\u2019s an emergency?",
+    "A": "Attempt to use the AED as long as it still powers on. Follow the instructions, and if the battery fails, continue CPR and wait for emergency responders."
+  },
+  {
+    "Q": "What is an antiseptic wipe?",
+    "A": "An antiseptic wipe is a disposable cloth infused with disinfectant to clean wounds or surfaces and prevent infection."
+  },
+  {
+    "Q": "What actions should I take if someone faints?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "What actions should I take if someone collapses during an escalator accident?",
+    "A": "Stop the escalator using the emergency stop button, if available. Move the person to a safe area and call for emergency medical help if they are injured or unconscious."
+  },
+  {
+    "Q": "Can I use an adhesive bandage for deep cuts?",
+    "A": "No, adhesive bandages are best for minor wounds. For deep cuts, use sterile gauze and seek medical attention."
+  },
+  {
+    "Q": "How do I respond to a person who is hyperventilating?",
+    "A": "Encourage them to breathe slowly and deeply, and guide them to inhale through their nose and exhale through their mouth."
+  },
+  {
+    "Q": "What do I do if someone is experiencing a severe headache?",
+    "A": "Offer them water and a quiet space to rest. If they have a history of migraines, suggest they use their prescribed medication."
+  },
+  {
+    "Q": "How do I use a stethoscope?",
+    "A": "Place the earpieces in your ears, position the diaphragm on the area you want to listen to, and adjust as needed for clear sounds."
+  },
+  {
+    "Q": "How should I handle clothing or accessories when preparing the chest for AED pads?",
+    "A": "Quickly remove or cut away clothing to expose the chest. If the victim has accessories like jewelry or a bra with underwire, remove them to ensure proper pad placement."
+  },
+  {
+    "Q": "Can I wash and reuse disposable gloves in an emergency?",
+    "A": "No, disposable gloves are not designed for reuse. Washing them can damage the material and compromise their integrity."
+  },
+  {
+    "Q": "What should I do if I find an unresponsive person in the restroom?",
+    "A": "Check if the person is breathing and responsive. If they\u2019re unresponsive but breathing, place them in the recovery position and call emergency services."
+  },
+  {
+    "Q": "What is the purpose of using an AED?",
+    "A": "An AED (Automated External Defibrillator) is a medical device that can analyze a person's heart rhythm and deliver an electrical shock if needed to help the heart re-establish an effective rhythm."
+  },
+  {
+    "Q": "How long can an antiseptic wipe be stored before use?",
+    "A": "Antiseptic wipes are typically safe to use until their expiration date, which is printed on the packaging."
+  },
+  {
+    "Q": "How do I help someone trapped under fallen merchandise?",
+    "A": "Call emergency services right away and avoid trying to lift heavy items by yourself. Keep the person calm and reassure them until help arrives."
+  },
+  {
+    "Q": "What should I do if someone is feeling overwhelmed in a busy environment?",
+    "A": "Help them find a quiet place to sit and encourage deep breathing. Stay with them until they feel better."
+  },
+  {
+    "Q": "What should I do if the elevators stop working and someone is trapped?",
+    "A": "Call emergency services immediately and inform building management. Reassure the trapped person and advise them to remain calm. Do not attempt to open the elevator doors on your own."
+  },
+  {
+    "Q": "Can an AED be used in a crowded area?",
+    "A": "Yes, but make sure the area is cleared around the victim before using the AED. Announce clearly for everyone to stay back when delivering a shock."
+  },
+  {
+    "Q": "What should I do if a person has a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "How can I help someone experiencing frostbite in the hands?",
+    "A": "Move them to a warm area and immerse their hands in warm (not hot) water. Avoid rubbing the affected area and call for medical assistance."
+  },
+  {
+    "Q": "What should I do if a customer is assaulted in the store?",
+    "A": "Call for emergency services immediately and avoid direct confrontation with the assailant. Provide comfort to the victim and wait for authorities to arrive."
+  },
+  {
+    "Q": "What should I do in case of an allergic reaction?",
+    "A": "If they have an epinephrine auto-injector (EpiPen), assist them in using it. Call emergency services immediately if their symptoms worsen or they have trouble breathing."
+  },
+  {
+    "Q": "What should I do if someone gets burned?",
+    "A": "Cool the burn with cool (not cold) water for 10-20 minutes. Cover the burn with a clean, non-stick dressing. Do not apply ice, butter, or any ointments."
+  },
+  {
+    "Q": "How do I treat someone who has fainted?",
+    "A": "Lay the person down and elevate their legs. Ensure they have plenty of air. If they don't regain consciousness within a minute, call for emergency assistance."
+  },
+  {
+    "Q": "Is it safe to use an AED on someone who has a history of heart conditions?",
+    "A": "Yes, an AED is designed to treat life-threatening arrhythmias regardless of medical history. Follow the device\u2019s instructions if the victim shows no signs of breathing or consciousness."
+  },
+  {
+    "Q": "How can I help someone with severe chest pain?",
+    "A": "Have the person sit or lie down in a comfortable position. Call emergency services immediately, especially if they show signs of a heart attack."
+  },
+  {
+    "Q": "Can I still perform CPR if the AED fails?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "Can I use an AED on a victim if I am alone?",
+    "A": "Yes, you can use an AED alone. Call emergency services first, and then follow the AED\u2019s instructions while administering care."
+  },
+  {
+    "Q": "What do I do if a customer is caught in a flash flood in the store?",
+    "A": "Move to higher ground immediately and avoid walking through standing water. Alert store personnel for further instructions."
+  },
+  {
+    "Q": "What are the steps to take if someone is drowning?",
+    "A": "If safe to do so, get the person out of the water. Call for emergency help. Start CPR immediately if they are unresponsive and not breathing."
+  },
+  {
+    "Q": "Is it safe to use an AED on a child?",
+    "A": "Yes, but make sure to use pediatric pads if available. If not, adult pads can be used by placing one on the chest and one on the back for children under 8 years old."
+  },
+  {
+    "Q": "What should I do if a child is found wandering alone in the store?",
+    "A": "Stay with the child and notify store personnel immediately to help locate their parent or guardian."
+  },
+  {
+    "Q": "What types of heart rhythms does an AED detect?",
+    "A": "An AED detects abnormal heart rhythms, such as ventricular fibrillation (VF) and ventricular tachycardia (VT). It will only deliver a shock if these life-threatening rhythms are detected."
+  },
+  {
+    "Q": "How should I react if I notice suspicious activity while shopping?",
+    "A": "Report the suspicious behavior to store security or staff immediately, providing as much detail as possible. Avoid confronting the individual directly."
+  },
+  {
+    "Q": "Can I cut sterile gauze pads to fit a smaller wound?",
+    "A": "Yes, as long as you use clean, sterilized scissors to prevent contamination."
+  },
+  {
+    "Q": "How often should AED pads be replaced?",
+    "A": "Check the expiration date on the pads, and replace them as needed, typically every two to five years or after use."
+  },
+  {
+    "Q": "What are the steps to use a fire extinguisher?",
+    "A": "Remember the PASS method: Pull the pin, Aim the nozzle at the base of the fire, Squeeze the handle, and Sweep the nozzle from side to side."
+  },
+  {
+    "Q": "How can I assist someone having a panic attack?",
+    "A": "Encourage them to breathe slowly and deeply, in through the nose and out through the mouth. Stay with them and speak in a calm, reassuring voice."
+  },
+  {
+    "Q": "What should I do if someone is feeling faint or lightheaded?",
+    "A": "Help them sit or lie down, ensure they have fresh air, and call for medical assistance if they do not improve quickly."
+  },
+  {
+    "Q": "How do I help someone who is feeling faint after standing for a long time?",
+    "A": "Help them sit down, elevate their legs, and provide water. Call for medical assistance if they do not recover quickly."
+  },
+  {
+    "Q": "How do I use a portable suction device?",
+    "A": "Insert the suction catheter into the mouth or nose, turn on the device, and gently move the catheter to clear the airway."
+  },
+  {
+    "Q": "In which situations should I use an AED?",
+    "A": "If a person is unresponsive, not breathing, or only gasping, an AED may be needed. Begin CPR and apply the AED as soon as it is available."
+  },
+  {
+    "Q": "What should I do if someone is injured by glass?",
+    "A": "Control the bleeding by applying gentle pressure with a clean cloth. Do not remove any large pieces of glass and seek medical help."
+  },
+  {
+    "Q": "What should I do if I suspect someone is having a stroke?",
+    "A": "Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services immediately if you notice these symptoms."
+  },
+  {
+    "Q": "How can I stay safe during a power outage in an unfamiliar location?",
+    "A": "Remain calm, use your phone's flashlight if necessary, and follow the emergency exit signs. Avoid using elevators and follow any instructions from store personnel."
+  },
+  {
+    "Q": "What happens if the AED doesn't work as expected?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "How do I use CPR in an emergency situation?",
+    "A": "Place the heel of your hand on the center of the chest, place your other hand on top, and push hard and fast in the center of the chest at a rate of 100-120 compressions per minute. Allow the chest to fully recoil between compressions."
+  },
+  {
+    "Q": "Can an AED be used on someone with a pacemaker?",
+    "A": "Yes, but avoid placing the AED pad directly over the pacemaker. Place it slightly to the side."
+  },
+  {
+    "Q": "How can I help someone feeling dizzy or lightheaded?",
+    "A": "Have them sit down and encourage them to take slow, deep breaths. Offer water if available and call for medical assistance if their condition does not improve."
+  },
+  {
+    "Q": "What should I do during a lockdown?",
+    "A": "Find a secure location, lock the doors, turn off lights, and remain quiet. Wait for instructions from authorities or store management before leaving your secure area."
+  },
+  {
+    "Q": "How do I handle an AED that isn't functioning?",
+    "A": "If the AED malfunctions or doesn't provide clear instructions, continue performing CPR and call emergency services immediately."
+  },
+  {
+    "Q": "How do I assist someone who is hyperventilating?",
+    "A": "Encourage them to breathe slowly into a paper bag or their hands, and reassure them until their breathing stabilizes."
+  },
+  {
+    "Q": "What is the best way to stop bleeding fast?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "What do I do if someone shows signs of alcohol poisoning in the store?",
+    "A": "Call for emergency medical assistance immediately. Keep the person upright and awake if possible, or place them on their side if they are unconscious to prevent choking."
+  },
+  {
+    "Q": "What should I do if someone falls on the escalator?",
+    "A": "Press the emergency stop button if safe to do so and call for help. If the person is injured, keep them still and wait for medical assistance."
+  },
+  {
+    "Q": "What precautions should I take when using an adhesive bandage?",
+    "A": "Avoid applying it to dirty or uncleaned wounds. Change the bandage regularly to prevent irritation or infection."
+  },
+  {
+    "Q": "What should I do if someone is experiencing shortness of breath?",
+    "A": "Help them sit in a comfortable position and encourage slow breathing. Call for medical assistance if they do not improve."
+  },
+  {
+    "Q": "How can I help someone having a seizure?",
+    "A": "Keep the person safe by moving nearby objects out of the way. Do not hold them down or put anything in their mouth. Once the seizure ends, place them on their side and stay with them until they are fully alert."
+  },
+  {
+    "Q": "What is an AED?",
+    "A": "An AED, or Automated External Defibrillator, is a portable electronic device used to help those experiencing sudden cardiac arrest. It analyzes the heart's rhythm and, if necessary, delivers an electric shock to help the heart re-establish an effective rhythm."
+  },
+  {
+    "Q": "Can disposable gloves protect me from all contaminants?",
+    "A": "While disposable gloves provide a barrier, they are not foolproof. Avoid touching your face or other surfaces unnecessarily while wearing them."
+  },
+  {
+    "Q": "What do I do if someone is electrocuted?",
+    "A": "Do not touch the person directly. Turn off the power source if possible or use a non-conductive object to move them away. Call for emergency services immediately."
+  },
+  {
+    "Q": "What should I do for a heavy bleeding injury?",
+    "A": "Apply firm pressure to the wound with a clean cloth. If possible, elevate the injured limb. Call for emergency medical assistance."
+  },
+  {
+    "Q": "What should I do if I don't know how to use an AED?",
+    "A": "Yes, AEDs are designed to be user-friendly with clear instructions. Follow the device's voice prompts, and it will guide you through the process."
+  },
+  {
+    "Q": "How do I know if the AED battery needs to be replaced?",
+    "A": "Most AEDs have a status indicator or light that shows if the battery needs replacement. Regular checks are necessary."
+  },
+  {
+    "Q": "What should I do if sterile gauze is unavailable?",
+    "A": "Use a clean, lint-free cloth as a temporary alternative until you can obtain sterile gauze."
+  }
+]
