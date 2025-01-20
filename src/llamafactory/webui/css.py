@@ -20,6 +20,14 @@ CSS = r"""
   border-radius: 100vh !important;
 }
 
+.centered-image {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:20px;
+                background: transparent;
+                border-color: transparent;
+                }
+
 .modal-box {
   position: fixed !important;
   top: 50%;

@@ -15,6 +15,8 @@
 import os
 import platform
 import time
+# The import was removed as it was unused
+from ..rag_attribution import create_rag_attribution_tab
 
 from ..extras.packages import is_gradio_available
 from .common import save_config
@@ -46,7 +48,7 @@ header='''
         btn.click();
     }
     }, 2000)
-    
+
 
 function shortcuts(e) {
     console.log('key pressed')
@@ -101,13 +103,13 @@ console.log("wind", window.EthereumProvider)
 
         !web3auth.provider ? await web3auth.initModal() : console.log("Already provider initiated");
         const provider = await web3auth.connect();
-        
+
         // Get user info from Web3Auth
         const userInfo = await web3auth.getUserInfo();
         console.log("User info:", userInfo);
-        
+
         const address = await ethereumProvider.request({ method: "eth_accounts" });
-        
+
         // Update UI with user info
         if (userInfo.profileImage) {
             document.getElementById('user-image').src = userInfo.profileImage;
@@ -117,12 +119,12 @@ console.log("wind", window.EthereumProvider)
             box.value = address[0];
             box.dispatchEvent(new Event('input'));
         }
-        
+
         document.getElementById('user-name').textContent = userInfo.name || address[0].slice(0, 6) + '...';
         document.getElementById('wallet-address').textContent = address[0]
         document.getElementById('user-info').style.display = 'flex';
         document.getElementById('web3auth-login').style.display = 'none';
-        
+
         window.top.postMessage({ action: 'sendData', data: 'Hello from iframe!' }, '*');
         return address;
 }
@@ -176,6 +178,9 @@ def create_ui(demo_mode: bool = False) -> "gr.Blocks":
 
         with gr.Tab("Chat"):
             engine.manager.add_elems("infer", create_infer_tab(engine))
+
+        with gr.Tab("RAG Attribution"):
+            create_rag_attribution_tab()
 
         if not demo_mode:
             with gr.Tab("Export"):
