@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import time
 from typing import TYPE_CHECKING, Dict
 
 from transformers.trainer_utils import SchedulerType
@@ -295,6 +296,10 @@ def create_train_tab(engine: "Engine") -> Dict[str, "Component"]:
 
             with gr.Row():
                 output_box = gr.Markdown()
+            
+            
+                
+
 
         with gr.Column(scale=1):
             loss_viewer = gr.Plot()
@@ -320,6 +325,11 @@ def create_train_tab(engine: "Engine") -> Dict[str, "Component"]:
         )
     )
     output_elems = [output_box, progress_bar, loss_viewer]
+
+    def simulate_progress(progress=gr.Progress()):
+        for _ in progress.tqdm(range(50), desc="Initializing..."):
+            time.sleep(0.1)
+        return
 
     cmd_preview_btn.click(engine.runner.preview_train, input_elems, output_elems, concurrency_limit=None)
     start_btn.click(engine.runner.run_train, input_elems, output_elems)

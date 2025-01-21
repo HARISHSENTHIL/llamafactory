@@ -14,6 +14,7 @@
 
 import json
 import os
+import time
 from copy import deepcopy
 from subprocess import Popen, TimeoutExpired
 from typing import TYPE_CHECKING, Any, Dict, Generator, Optional
@@ -339,8 +340,15 @@ class Runner:
     def preview_eval(self, data):
         yield from self._preview(data, do_train=False)
 
-    def run_train(self, data):
+    def run_train(self, data, progress=gr.Progress()):
+        for _ in progress.tqdm(range(70), desc="Initializing..."):
+            time.sleep(0.1)
         yield from self._launch(data, do_train=True)
+
+    # def simulate_progress(progress=gr.Progress()):
+    #     for _ in progress.tqdm(range(50), desc="Initializing..."):
+    #         time.sleep(0.1)
+    #     return html
 
     def run_eval(self, data):
         yield from self._launch(data, do_train=False)
