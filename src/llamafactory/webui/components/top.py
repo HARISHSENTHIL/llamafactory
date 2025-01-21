@@ -24,7 +24,7 @@ from ..utils import can_quantize, can_quantize_to
 only_html = '''
    <div id="web3auth-container" style="text-align: right;">
        <div id="login-container">
-            <img class="logo-image" src="https://i.ibb.co/drdFdGT/opl-logo.png" alt="openledger-logo">
+            <img class="logo-image" src="https://cdn.openledger.xyz/logo-orange.png" alt="openledger-logo">
             <div>
             <i class="fa fa-industry" style="font-size:28px;"></i>
             <span class="logo-text">Model Factory</span>
