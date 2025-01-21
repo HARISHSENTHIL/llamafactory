@@ -18,7 +18,7 @@ from llamafactory.webui.common import save_config
 class Config:
     def __init__(self):
         load_dotenv()
-        self.OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+        self.OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "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")
         self.MODEL_NAME = os.getenv("MODEL_NAME", "gpt-3.5-turbo")
         self.EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-ada-002")
         self.QDRANT_HOST = os.getenv("QDRANT_HOST", "localhost")

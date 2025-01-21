@@ -751,26 +751,26 @@ register_model_group(
             DownloadSource.DEFAULT: "meta-llama/Llama-2-7b-hf",
             DownloadSource.MODELSCOPE: "modelscope/Llama-2-7b-ms",
         },
-        "Llama-2-13B": {
-            DownloadSource.DEFAULT: "meta-llama/Llama-2-13b-hf",
-            DownloadSource.MODELSCOPE: "modelscope/Llama-2-13b-ms",
-        },
-        "Llama-2-70B": {
-            DownloadSource.DEFAULT: "meta-llama/Llama-2-70b-hf",
-            DownloadSource.MODELSCOPE: "modelscope/Llama-2-70b-ms",
-        },
-        "Llama-2-7B-Chat": {
-            DownloadSource.DEFAULT: "meta-llama/Llama-2-7b-chat-hf",
-            DownloadSource.MODELSCOPE: "modelscope/Llama-2-7b-chat-ms",
-        },
-        "Llama-2-13B-Chat": {
-            DownloadSource.DEFAULT: "meta-llama/Llama-2-13b-chat-hf",
-            DownloadSource.MODELSCOPE: "modelscope/Llama-2-13b-chat-ms",
-        },
-        "Llama-2-70B-Chat": {
-            DownloadSource.DEFAULT: "meta-llama/Llama-2-70b-chat-hf",
-            DownloadSource.MODELSCOPE: "modelscope/Llama-2-70b-chat-ms",
-        },
+        # "Llama-2-13B": {
+        #     DownloadSource.DEFAULT: "meta-llama/Llama-2-13b-hf",
+        #     DownloadSource.MODELSCOPE: "modelscope/Llama-2-13b-ms",
+        # },
+        # "Llama-2-70B": {
+        #     DownloadSource.DEFAULT: "meta-llama/Llama-2-70b-hf",
+        #     DownloadSource.MODELSCOPE: "modelscope/Llama-2-70b-ms",
+        # },
+        # "Llama-2-7B-Chat": {
+        #     DownloadSource.DEFAULT: "meta-llama/Llama-2-7b-chat-hf",
+        #     DownloadSource.MODELSCOPE: "modelscope/Llama-2-7b-chat-ms",
+        # },
+        # "Llama-2-13B-Chat": {
+        #     DownloadSource.DEFAULT: "meta-llama/Llama-2-13b-chat-hf",
+        #     DownloadSource.MODELSCOPE: "modelscope/Llama-2-13b-chat-ms",
+        # },
+        # "Llama-2-70B-Chat": {
+        #     DownloadSource.DEFAULT: "meta-llama/Llama-2-70b-chat-hf",
+        #     DownloadSource.MODELSCOPE: "modelscope/Llama-2-70b-chat-ms",
+        # },
     },
     template="llama2",
 )
@@ -778,78 +778,78 @@ register_model_group(
 
 register_model_group(
     models={
-        "Llama-3-8B": {
-            DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3-8B",
-            DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3-8B",
-        },
-        "Llama-3-70B": {
-            DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3-70B",
-            DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3-70B",
-        },
-        "Llama-3-8B-Instruct": {
-            DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3-8B-Instruct",
-            DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3-8B-Instruct",
-        },
-        "Llama-3-70B-Instruct": {
-            DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3-70B-Instruct",
-            DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3-70B-Instruct",
-        },
-        "Llama-3-8B-Chinese-Chat": {
-            DownloadSource.DEFAULT: "shenzhi-wang/Llama3-8B-Chinese-Chat",
-            DownloadSource.MODELSCOPE: "LLM-Research/Llama3-8B-Chinese-Chat",
-            DownloadSource.OPENMIND: "LlamaFactory/Llama3-Chinese-8B-Instruct",
-        },
-        "Llama-3-70B-Chinese-Chat": {
-            DownloadSource.DEFAULT: "shenzhi-wang/Llama3-70B-Chinese-Chat",
-        },
-        "Llama-3.1-8B": {
-            DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-8B",
-            DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-8B",
-        },
-        "Llama-3.1-70B": {
-            DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-70B",
-            DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-70B",
-        },
-        "Llama-3.1-405B": {
-            DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-405B",
-            DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-405B",
-        },
-        "Llama-3.1-8B-Instruct": {
-            DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-8B-Instruct",
-            DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-8B-Instruct",
-        },
-        "Llama-3.1-70B-Instruct": {
-            DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-70B-Instruct",
-            DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-70B-Instruct",
-        },
-        "Llama-3.1-405B-Instruct": {
-            DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-405B-Instruct",
-            DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-405B-Instruct",
-        },
-        "Llama-3.1-8B-Chinese-Chat": {
-            DownloadSource.DEFAULT: "shenzhi-wang/Llama3.1-8B-Chinese-Chat",
-            DownloadSource.MODELSCOPE: "XD_AI/Llama3.1-8B-Chinese-Chat",
-        },
-        "Llama-3.1-70B-Chinese-Chat": {
-            DownloadSource.DEFAULT: "shenzhi-wang/Llama3.1-70B-Chinese-Chat",
-            DownloadSource.MODELSCOPE: "XD_AI/Llama3.1-70B-Chinese-Chat",
-        },
+        # "Llama-3-8B": {
+        #     DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3-8B",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3-8B",
+        # },
+        # "Llama-3-70B": {
+        #     DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3-70B",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3-70B",
+        # },
+        # "Llama-3-8B-Instruct": {
+        #     DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3-8B-Instruct",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3-8B-Instruct",
+        # },
+        # "Llama-3-70B-Instruct": {
+        #     DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3-70B-Instruct",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3-70B-Instruct",
+        # },
+        # "Llama-3-8B-Chinese-Chat": {
+        #     DownloadSource.DEFAULT: "shenzhi-wang/Llama3-8B-Chinese-Chat",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Llama3-8B-Chinese-Chat",
+        #     DownloadSource.OPENMIND: "LlamaFactory/Llama3-Chinese-8B-Instruct",
+        # },
+        # "Llama-3-70B-Chinese-Chat": {
+        #     DownloadSource.DEFAULT: "shenzhi-wang/Llama3-70B-Chinese-Chat",
+        # },
+        # "Llama-3.1-8B": {
+        #     DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-8B",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-8B",
+        # },
+        # "Llama-3.1-70B": {
+        #     DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-70B",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-70B",
+        # },
+        # "Llama-3.1-405B": {
+        #     DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-405B",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-405B",
+        # },
+        # "Llama-3.1-8B-Instruct": {
+        #     DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-8B-Instruct",
+        # },
+        # "Llama-3.1-70B-Instruct": {
+        #     DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-70B-Instruct",
+        # },
+        # "Llama-3.1-405B-Instruct": {
+        #     DownloadSource.DEFAULT: "meta-llama/Meta-Llama-3.1-405B-Instruct",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Meta-Llama-3.1-405B-Instruct",
+        # },
+        # "Llama-3.1-8B-Chinese-Chat": {
+        #     DownloadSource.DEFAULT: "shenzhi-wang/Llama3.1-8B-Chinese-Chat",
+        #     DownloadSource.MODELSCOPE: "XD_AI/Llama3.1-8B-Chinese-Chat",
+        # },
+        # "Llama-3.1-70B-Chinese-Chat": {
+        #     DownloadSource.DEFAULT: "shenzhi-wang/Llama3.1-70B-Chinese-Chat",
+        #     DownloadSource.MODELSCOPE: "XD_AI/Llama3.1-70B-Chinese-Chat",
+        # },
         "Llama-3.2-1B": {
             DownloadSource.DEFAULT: "meta-llama/Llama-3.2-1B",
             DownloadSource.MODELSCOPE: "LLM-Research/Llama-3.2-1B",
         },
-        "Llama-3.2-3B": {
-            DownloadSource.DEFAULT: "meta-llama/Llama-3.2-3B",
-            DownloadSource.MODELSCOPE: "LLM-Research/Llama-3.2-3B",
-        },
-        "Llama-3.2-1B-Instruct": {
-            DownloadSource.DEFAULT: "meta-llama/Llama-3.2-1B-Instruct",
-            DownloadSource.MODELSCOPE: "LLM-Research/Llama-3.2-1B-Instruct",
-        },
-        "Llama-3.2-3B-Instruct": {
-            DownloadSource.DEFAULT: "meta-llama/Llama-3.2-3B-Instruct",
-            DownloadSource.MODELSCOPE: "LLM-Research/Llama-3.2-3B-Instruct",
-        },
+        # "Llama-3.2-3B": {
+        #     DownloadSource.DEFAULT: "meta-llama/Llama-3.2-3B",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Llama-3.2-3B",
+        # },
+        # "Llama-3.2-1B-Instruct": {
+        #     DownloadSource.DEFAULT: "meta-llama/Llama-3.2-1B-Instruct",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Llama-3.2-1B-Instruct",
+        # },
+        # "Llama-3.2-3B-Instruct": {
+        #     DownloadSource.DEFAULT: "meta-llama/Llama-3.2-3B-Instruct",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Llama-3.2-3B-Instruct",
+        # },
     },
     template="llama3",
 )
