@@ -60,7 +60,7 @@ def update_multiple_dropdowns(wallet_address: str | None, count: int = 9):
     return [gr.update(interactive=is_enabled)] * count
 
 def create_top() -> Dict[str, "Component"]:
-    available_models = list(SUPPORTED_MODELS.keys()) + ["Custom"]
+    available_models = list(SUPPORTED_MODELS.keys()) # + [" "]
 
     wallet_address = gr.Textbox(value=None, elem_id="wallet-address-textbox", visible=False)
 
@@ -76,7 +76,8 @@ def create_top() -> Dict[str, "Component"]:
            html = gr.HTML(value=only_html)
 
         with gr.Row():
-            lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
+            # lang = gr.Dropdown(choices=["en", "ru", "zh", "ko"], scale=1)
+            lang = gr.Dropdown(choices=["en"], scale=1)
             model_name = gr.Dropdown(choices=available_models, scale=3, interactive=False)
             model_path = gr.Textbox(scale=3, interactive=False)
 
