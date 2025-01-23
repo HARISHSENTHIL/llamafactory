@@ -7,7 +7,7 @@
 #     http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
+# distributed under the License is distributed on an "AS IS" BASIS,Mistral-7B
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
@@ -1036,38 +1036,38 @@ register_model_group(
 # )
 
 
-# register_model_group(
-#     models={
-#         "Mistral-7B-v0.1": {
-#             DownloadSource.DEFAULT: "mistralai/Mistral-7B-v0.1",
-#             DownloadSource.MODELSCOPE: "AI-ModelScope/Mistral-7B-v0.1",
-#         },
-#         "Mistral-7B-Instruct-v0.1": {
-#             DownloadSource.DEFAULT: "mistralai/Mistral-7B-Instruct-v0.1",
-#             DownloadSource.MODELSCOPE: "AI-ModelScope/Mistral-7B-Instruct-v0.1",
-#         },
-#         "Mistral-7B-v0.2": {
-#             DownloadSource.DEFAULT: "alpindale/Mistral-7B-v0.2-hf",
-#             DownloadSource.MODELSCOPE: "AI-ModelScope/Mistral-7B-v0.2-hf",
-#         },
-#         "Mistral-7B-Instruct-v0.2": {
-#             DownloadSource.DEFAULT: "mistralai/Mistral-7B-Instruct-v0.2",
-#             DownloadSource.MODELSCOPE: "AI-ModelScope/Mistral-7B-Instruct-v0.2",
-#         },
-#         "Mistral-7B-v0.3": {
-#             DownloadSource.DEFAULT: "mistralai/Mistral-7B-v0.3",
-#         },
-#         "Mistral-7B-Instruct-v0.3": {
-#             DownloadSource.DEFAULT: "mistralai/Mistral-7B-Instruct-v0.3",
-#             DownloadSource.MODELSCOPE: "LLM-Research/Mistral-7B-Instruct-v0.3",
-#         },
-#         "Mistral-Nemo-Instruct-2407": {
-#             DownloadSource.DEFAULT: "mistralai/Mistral-Nemo-Instruct-2407",
-#             DownloadSource.MODELSCOPE: "AI-ModelScope/Mistral-Nemo-Instruct-2407",
-#         },
-#     },
-#     template="mistral",
-# )
+register_model_group(
+    models={
+        # "Mistral-7B-v0.1": {
+        #     DownloadSource.DEFAULT: "mistralai/Mistral-7B-v0.1",
+        #     DownloadSource.MODELSCOPE: "AI-ModelScope/Mistral-7B-v0.1",
+        # },
+        "Mistral-7B-Instruct-v0.1": {
+            DownloadSource.DEFAULT: "mistralai/Mistral-7B-Instruct-v0.1",
+            DownloadSource.MODELSCOPE: "AI-ModelScope/Mistral-7B-Instruct-v0.1",
+        },
+        # "Mistral-7B-v0.2": {
+        #     DownloadSource.DEFAULT: "alpindale/Mistral-7B-v0.2-hf",
+        #     DownloadSource.MODELSCOPE: "AI-ModelScope/Mistral-7B-v0.2-hf",
+        # },
+        # "Mistral-7B-Instruct-v0.2": {
+        #     DownloadSource.DEFAULT: "mistralai/Mistral-7B-Instruct-v0.2",
+        #     DownloadSource.MODELSCOPE: "AI-ModelScope/Mistral-7B-Instruct-v0.2",
+        # },
+        # "Mistral-7B-v0.3": {
+        #     DownloadSource.DEFAULT: "mistralai/Mistral-7B-v0.3",
+        # },
+        # "Mistral-7B-Instruct-v0.3": {
+        #     DownloadSource.DEFAULT: "mistralai/Mistral-7B-Instruct-v0.3",
+        #     DownloadSource.MODELSCOPE: "LLM-Research/Mistral-7B-Instruct-v0.3",
+        # },
+        # "Mistral-Nemo-Instruct-2407": {
+        #     DownloadSource.DEFAULT: "mistralai/Mistral-Nemo-Instruct-2407",
+        #     DownloadSource.MODELSCOPE: "AI-ModelScope/Mistral-Nemo-Instruct-2407",
+        # },
+    },
+    template="mistral",
+)
 
 
 # register_model_group(

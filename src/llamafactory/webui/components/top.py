@@ -65,13 +65,6 @@ def create_top() -> Dict[str, "Component"]:
     wallet_address = gr.Textbox(value=None, elem_id="wallet-address-textbox", visible=False)
 
     with gr.Blocks() as ui:
-        ui.css = """
-        .logo-image {
-            margin-left: 0;
-            background-color: Transparent !important;
-        }
-        """
-
         with gr.Row():
            html = gr.HTML(value=only_html)
 
