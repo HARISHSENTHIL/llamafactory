@@ -136,6 +136,63 @@ def register_model_group(
 #     template="cohere",
 # )
 
+register_model_group(
+    models={
+        "DeepSeek-V2-236B-Chat-0628": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-V2-Chat-0628",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-V2-Chat-0628",
+        },
+        "DeepSeek-V2.5-236B-Chat": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-V2.5",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-V2.5",
+        },
+        "DeepSeek-V2.5-236B-Chat-1210": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-V2.5-1210",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-V2.5-1210",
+        },
+        "DeepSeek-V3-685B-Base": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-V3-Base",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-V3-Base",
+        },
+        "DeepSeek-V3-685B-Chat": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-V3",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-V3",
+        },
+        "DeepSeek-R1-1.5B-Distill": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        },
+        "DeepSeek-R1-7B-Distill": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        },
+        "DeepSeek-R1-8B-Distill": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        },
+        "DeepSeek-R1-14B-Distill": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+        },
+        "DeepSeek-R1-32B-Distill": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+        },
+        "DeepSeek-R1-70B-Distill": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+        },
+        "DeepSeek-R1-671B-Zero": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Zero",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Zero",
+        },        
+        "DeepSeek-R1-671B": {
+            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1",
+            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1",
+        },
+    },
+    template="deepseek3",
+)
 
 # register_model_group(
 #     models={
