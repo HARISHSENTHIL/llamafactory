@@ -1,4 +1,22 @@
 {
+  "Elonmusk-bio": {
+    "file_name": "new-datasets/elonmusk_finetune_advanced.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+    },
+    "Sreerankannan-bio": {
+      "file_name": "new-datasets/elonmusk_finetune_advanced.jsonl",
+      "formatting": "alpaca",
+      "columns": {
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output"
+      }
+      },
   "move-language": {
     "file_name": "new-datasets/qa_move_databank.jsonl",
     "formatting": "alpaca",
@@ -15,14 +33,6 @@
         "prompt": "instruction",
         "query": "input",
         "response": "output"
-    }
-  },
-  "Pharma-FAQ": {
-    "file_name": "new-datasets/Pharma-FAQ.json",
-    "formatting": "alpaca",
-    "columns": {
-      "prompt": "Question",
-      "response": "Answer"
     }
   },
   "Medical-Insights":{
