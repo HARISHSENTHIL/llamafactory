@@ -64,5 +64,13 @@
       "assistant_tag": "assistant",
       "system_tag": "system"
     }
+  },
+  "solidity_QA" : {
+    "file_name": "new-datasets/solidity_qa.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "prompt",  
+      "response": "response"
+    }
   }
 }
