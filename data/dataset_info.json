@@ -72,5 +72,13 @@
       "prompt": "prompt",  
       "response": "response"
     }
+  },
+  "solidity_contract" : {
+    "file_name": "new-datasets/solidity_v3.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "prompt",  
+      "response": "response"
+    }
   }
 }
