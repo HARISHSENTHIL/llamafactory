@@ -1,4 +1,46 @@
 {
+  "Agriculture": {
+    "file_name": "new-datasets/Agriculture.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "question",
+      "response": "answers"
+    }
+    },
+  "Disease-Info": {
+      "file_name": "new-datasets/disease-scraped.json",
+      "formatting": "alpaca",
+      "columns": {
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output"
+      }
+    },
+  "Football-info" : {
+      "file_name": "new-datasets/Football-info.json",
+      "formatting": "alpaca",
+      "columns": {
+        "prompt": "input",  
+        "response": "output"
+      }
+    },
+  "Health-Info" : {
+      "file_name": "new-datasets/Health_analusis.json",
+      "formatting": "alpaca",
+      "columns": {
+        "prompt": "prompt",  
+        "response": "response"
+      }
+    },
+  "Math-Info" : {
+      "file_name": "new-datasets/Math-info.json",
+      "formatting": "alpaca",
+      "columns": {
+        "prompt": "prompt",
+        "query": "input",
+        "response": "output"
+      }
+    },
   "Elonmusk-bio": {
     "file_name": "new-datasets/elonmusk_finetune_advanced.jsonl",
     "formatting": "alpaca",
@@ -8,15 +50,6 @@
       "response": "output"
     }
     },
-    "Sreerankannan-bio": {
-      "file_name": "new-datasets/elonmusk_finetune_advanced.jsonl",
-      "formatting": "alpaca",
-      "columns": {
-        "prompt": "instruction",
-        "query": "input",
-        "response": "output"
-      }
-      },
   "move-language": {
     "file_name": "new-datasets/qa_move_databank.jsonl",
     "formatting": "alpaca",
