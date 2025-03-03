@@ -33,7 +33,7 @@
       }
     },
   "Math-Info" : {
-      "file_name": "new-datasets/Math-info.json",
+      "file_name": "new-datasets/Maths.json",
       "formatting": "alpaca",
       "columns": {
         "prompt": "prompt",
