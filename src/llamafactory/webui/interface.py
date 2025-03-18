@@ -71,7 +71,7 @@ console.log("data")
 const chainConfig = {
   chainNamespace: 'eip155',
   chainId: "0xaa36a7",
-  rpcTarget: "https://rpc.ankr.com/eth_sepolia",
+  rpcTarget: "https://1rpc.io/sepolia",
   displayName: "Ethereum Sepolia Testnet",
   blockExplorerUrl: "https://sepolia.etherscan.io",
   ticker: "ETH",
