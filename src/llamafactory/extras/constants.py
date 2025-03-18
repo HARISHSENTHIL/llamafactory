@@ -1994,22 +1994,22 @@ register_model_group(
 # )
 
 
-# register_model_group(
-#     models={
+register_model_group(
+    models={
 #         "StarCoder2-3B": {
 #             DownloadSource.DEFAULT: "bigcode/starcoder2-3b",
 #             DownloadSource.MODELSCOPE: "AI-ModelScope/starcoder2-3b",
 #         },
-#         "StarCoder2-7B": {
-#             DownloadSource.DEFAULT: "bigcode/starcoder2-7b",
-#             DownloadSource.MODELSCOPE: "AI-ModelScope/starcoder2-7b",
-#         },
+        "StarCoder2-7B": {
+            DownloadSource.DEFAULT: "bigcode/starcoder2-7b",
+            DownloadSource.MODELSCOPE: "AI-ModelScope/starcoder2-7b",
+        },
 #         "StarCoder2-15B": {
 #             DownloadSource.DEFAULT: "bigcode/starcoder2-15b",
 #             DownloadSource.MODELSCOPE: "AI-ModelScope/starcoder2-15b",
 #         },
-#     }
-# )
+    }
+)
 
 
 # register_model_group(
