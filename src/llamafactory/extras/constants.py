@@ -136,8 +136,8 @@ def register_model_group(
 #     template="cohere",
 # )
 
-register_model_group(
-    models={
+# register_model_group(
+#     models={
         # "DeepSeek-V2-236B-Chat-0628": {
         #     DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-V2-Chat-0628",
         #     DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-V2-Chat-0628",
@@ -158,14 +158,14 @@ register_model_group(
         #     DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-V3",
         #     DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-V3",
         # },
-        "DeepSeek-R1-1.5B-Distill": {
-            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-        },
-        "DeepSeek-R1-7B-Distill": {
-            DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-            DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        },
+        # "DeepSeek-R1-1.5B-Distill": {
+        #     DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        #     DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        # },
+        # "DeepSeek-R1-7B-Distill": {
+        #     DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        #     DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        # },
         # "DeepSeek-R1-8B-Distill": {
         #     DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
         #     DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
@@ -190,9 +190,9 @@ register_model_group(
         #     DownloadSource.DEFAULT: "deepseek-ai/DeepSeek-R1",
         #     DownloadSource.MODELSCOPE: "deepseek-ai/DeepSeek-R1",
         # },
-    },
-    template="deepseek3",
-)
+#     },
+#     template="deepseek3",
+# )
 
 # register_model_group(
 #     models={
@@ -1679,8 +1679,8 @@ register_model_group(
 # )
 
 
-# register_model_group(
-#     models={
+register_model_group(
+    models={
 #         "Qwen2.5-0.5B": {
 #             DownloadSource.DEFAULT: "Qwen/Qwen2.5-0.5B",
 #             DownloadSource.MODELSCOPE: "Qwen/Qwen2.5-0.5B",
@@ -1833,10 +1833,10 @@ register_model_group(
 #             DownloadSource.DEFAULT: "Qwen/Qwen2.5-Coder-3B",
 #             DownloadSource.MODELSCOPE: "Qwen/Qwen2.5-Coder-3B",
 #         },
-#         "Qwen2.5-Coder-7B": {
-#             DownloadSource.DEFAULT: "Qwen/Qwen2.5-Coder-7B",
-#             DownloadSource.MODELSCOPE: "Qwen/Qwen2.5-Coder-7B",
-#         },
+        "Qwen2.5-Coder-7B": {
+            DownloadSource.DEFAULT: "Qwen/Qwen2.5-Coder-7B",
+            DownloadSource.MODELSCOPE: "Qwen/Qwen2.5-Coder-7B",
+        },
 #         "Qwen2.5-Coder-14B": {
 #             DownloadSource.DEFAULT: "Qwen/Qwen2.5-Coder-14B",
 #             DownloadSource.MODELSCOPE: "Qwen/Qwen2.5-Coder-14B",
@@ -1897,9 +1897,9 @@ register_model_group(
 #             DownloadSource.DEFAULT: "Qwen/QwQ-32B-Preview",
 #             DownloadSource.MODELSCOPE: "Qwen/QwQ-32B-Preview",
 #         },
-#     },
-#     template="qwen",
-# )
+    },
+    template="qwen",
+)
 
 
 # register_model_group(
